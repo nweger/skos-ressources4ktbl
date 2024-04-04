@@ -7,451 +7,703 @@
 skos:prefLabel "ktbl EmiMin vocabulary"@en, "ktbl EmiMin Vokabular"@de ;
 dcterms:title "Common metadata vocabulary for EmiMin and associated projects"@en .
 
-<animal-breed/cattle> a skos:Concept ;
+<livestock_category> a skos:Concept 
+skos:prefLabel "Livestock category"@en, "Tierart"@de ;
+skos:topConceptOf <> .
+
+<livestock_category/cattle> a skos:Concept ;
 skos:prefLabel "Cattle"@en, "Rind"@de ;
-skos:topConceptOf <> .
+skos:narrower <diary_cattle_farming> ;
+skos:narrower <young_cattle_farming> ;
+skos:narrower <cattle_fattening> ;
+skos:narrower <calf_raising> ;
+skos:narrower <calf_fattening> ;
+skos:narrower <suckler_cow_farming> ;
+skos:narrower <solid_manure> ;
+skos:narrower <liquid_manure> ;
+skos:narrower <perforated_floor> ;
+skos:narrower <solid_floor> ;
+skos:narrower <others> ;
+skos:inScheme <> .
 
-<animal-breed/pig> a skos:Concept ;
+<livestock_category/pig> a skos:Concept ;
 skos:prefLabel "Pig"@en, "Schwein"@de ;
+skos:narrower <piglet_production> ;
+skos:narrower <piglet_raising> ;
+skos:narrower <pig_fattening> ;
+skos:narrower <solid_manure> ;
+skos:narrower <liquid_manure> ;
+skos:narrower <perforated_floor> ;
+skos:narrower <solid_floor> ;
+skos:narrower <others> ;
 skos:topConceptOf <> .
 
-<animal-breed/chicken> a skos:Concept ;
+<livestock_category/chicken> a skos:Concept ;
 skos:prefLabel "Chicken"@en, "Huhn"@de ;
-skos:topConceptOf <> .
+skos:narrower <laying_hen_farming> ;
+skos:narrower <young_hen_farming> ;
+skos:narrower <broiler_fattening> ;
+skos:narrower <solid_manure> ;
+skos:narrower <perforated_floor> ;
+skos:narrower <others> ;
+skos:inScheme <> .
 
-<animal-breed/turkey> a skos:Concept ;
+<livestock_category/turkey> a skos:Concept ;
 skos:prefLabel "Turkey"@en, "Truthahn"@de ;
-skos:topConceptOf <> .
+skos:narrower <turkey_raising> ;
+skos:narrower <turkey_fattening> ;
+skos:narrower <solid_manure> ;
+skos:narrower <perforated_floor> ;
+skos:narrower <others> ;
+skos:inScheme <> .
 
-<animal-breed/duck> a skos:Concept ;
+<livestock_category/duck> a skos:Concept ;
 skos:prefLabel "Duck"@en, "Ente"@de ;
-skos:topConceptOf <> .
-
-<animal-breed/other> a skos:Concept ;
-skos:prefLabel "Other"@en, "Sonstiges"@de ;
-skos:topConceptOf <> .
-
-<livestock-production/cattle> a skos:Concept ;
-skos:prefLabel "Cattle"@en, "Rind"@de ;
-skos:narrower <diary-cattle-farming> ;
-skos:narrower <young-cattle-farming> ;
-skos:narrower <cattle-fattening> ;
-skos:narrower <calf-raising> ;
-skos:narrower <calf-fattening> ;
-skos:narrower <suckler-cow-farming> ;
-skos:narrower <solid-manure> ;
-skos:narrower <liquid-manure> ;
-skos:narrower <perforated-floor> ;
-skos:narrower <solid-floor> ;
-skos:narrower <other> ;
-skos:topConceptOf <> .
-
-<diary-cattle-farming> a skos:Concept ;
-skos:prefLabel "Diary cattle farming"@en, "Milchkuhhaltung"@de ;
-skos:broader <livestock-production/cattle> ;
-skos:narrower <cubicle-housing> ;
-skos:narrower <loose-housing-with-single-type-flooring> ;
-skos:narrower <loose-housing-with-two-type-flooring> ;
-skos:narrower <other> ;
+skos:narrower <duck_fattening> ;
+skos:narrower <solid_manure> ;
+skos:narrower <perforated_floor> ;
+skos:narrower <others> ;
 skos:inScheme <> .
 
-<young-cattle-farming> a skos:Concept ;
-skos:prefLabel "Young cattle farming"@en, "Jungtierhaltung"@de ;
-skos:broader <livestock-production/cattle> ;
-skos:narrower <cubicle-housing> ;
-skos:narrower <loose-housing-with-single-type-flooring> ;
-skos:narrower <loose-housing-with-two-type-flooring> ;
-skos:narrower <other> ;
-skos:inScheme <> .
-
-<cattle-fattening> a skos:Concept ;
-skos:prefLabel "Cattle fattening"@en, "Rindermast"@de ;
-skos:broader <livestock-production/cattle> ;
-skos:narrower <cubicle-housing> ;
-skos:narrower <loose-housing-with-single-type-flooring> ;
-skos:narrower <loose-housing-with-two-type-flooring> ;
-skos:narrower <other> ;
-skos:inScheme <> .
-
-<calf-raising> a skos:Concept ;
-skos:prefLabel "Calf raising"@en, "Kälberaufzucht"@de ;
-skos:broader <livestock-production/cattle> ;
-skos:narrower <loose-housing-with-single-type-flooring> ;
-skos:narrower <loose-housing-with-two-type-flooring> ;
-skos:narrower <igloo-hut-housing> ;
-skos:narrower <calf-boxes> ;
-skos:narrower <other> ;
-skos:inScheme <> .
-
-<calf-fattening> a skos:Concept ;
-skos:prefLabel "Calf fattening"@en, "Kälbermast"@de ;
-skos:broader <livestock-production/cattle> ;
-skos:narrower <loose-housing-with-single-type-flooring> ;
-skos:narrower <loose-housing-with-two-type-flooring> ;
-skos:narrower <other> ;
-skos:inScheme <> .
-
-<suckler-cow-farming> a skos:Concept ;
-skos:prefLabel "Suckler cow farming"@en, "Mutterkuhhaltung"@de ;
-skos:broader <livestock-production/cattle> ;
-skos:narrower <loose-housing-with-single-type-flooring> ;
-skos:narrower <loose-housing-with-two-type-flooring> ;
-skos:narrower <other> ;
-skos:inScheme <> .
-
-<livestock-production/pig> a skos:Concept ;
-skos:prefLabel "Pig"@en, "Schwein"@de ;
-skos:narrower <piglet-production> ;
-skos:narrower <piglet-raising> ;
-skos:narrower <pig-fattening> ;
-skos:narrower <solid-manure> ;
-skos:narrower <liquid-manure> ;
-skos:narrower <perforated-floor> ;
-skos:narrower <solid-floor> ;
-skos:narrower <other> ;
-skos:topConceptOf <> .
-
-<piglet-production> a skos:Concept ;
-skos:prefLabel "Piglet production"@en, "Ferkelhaltung"@de ;
-skos:broader <livestock-production/pig> ;
-skos:narrower <farrowing-area-with-single-area-pen> ;
-skos:narrower <farrowing-area-with-multiple-area-pen> ;
-skos:narrower <waiting-and-matting-area-with-multiple-area-pen> ;
-skos:narrower <other> ;
-skos:inScheme <> .
-
-<piglet-raising> a skos:Concept ;
-skos:prefLabel "Piglet raising"@en, "Ferkelaufzucht"@de ;
-skos:broader <livestock-production/pig> ;
-skos:narrower <farrowing-area-with-single-area-pen> ;
-skos:narrower <farrowing-area-with-multiple-area-pen> ;
-skos:narrower <other> ;
-skos:inScheme <> .
-
-<pig-fattening> a skos:Concept ;
-skos:prefLabel "Pig fattening"@en, "Schweinemast"@de ;
-skos:broader <livestock-production/pig> ;
-skos:narrower <farrowing-area-with-single-area-pen> ;
-skos:narrower <farrowing-area-with-multiple-area-pen> ;
-skos:narrower <other> ;
-skos:inScheme <> .
-
-<livestock-production/chicken> a skos:Concept ;
-skos:prefLabel "Chicken"@en, "Huhn"@de ;
-skos:narrower <laying-hen-farming> ;
-skos:narrower <young-hen-farming> ;
-skos:narrower <broiler-fattening> ;
-skos:narrower <solid-manure> ;
-skos:narrower <perforated-floor> ;
-skos:narrower <other> ;
-skos:topConceptOf <> .
-
-<laying-hen> a skos:Concept ;
+<laying_hen> a skos:Concept ;
 skos:prefLabel "Laying hen"@en, "Legehuhn"@de ;
-skos:braoder <livestock-production/chicken> ;
+skos:braoder <livestock_category/chicken> ;
 skos:narrower <veranda> ;
-skos:topConceptOf <> .
+skos:inScheme <> .
 
-<young-hen> a skos:Concept ;
+<young_hen> a skos:Concept ;
 skos:prefLabel "Young hen"@en, "Legehuhn"@de ;
-skos:braoder <livestock-production/chicken> ;
+skos:braoder <livestock_category/chicken> ;
 skos:narrower <veranda> ;
+skos:inScheme <> .
+
+<livestock_production> a skos:Concept 
+skos:prefLabel "Livestock production"@en, ""@de ;
 skos:topConceptOf <> .
 
-<laying-hen-farming> a skos:Concept ;
+<livestock_production/diary_cattle_farming> a skos:Concept ;
+skos:prefLabel "Diary cattle farming"@en, "Milchkuhhaltung"@de ;
+skos:broader <livestock_category/cattle> ;
+skos:narrower <cubicle_housing> ;
+skos:narrower <loose_housing_with_single_type_flooring> ;
+skos:narrower <loose_housing_with_two_type_flooring> ;
+skos:narrower <others> ;
+skos:inScheme <> .
+
+<livestock_production/young_cattle_farming> a skos:Concept ;
+skos:prefLabel "Young cattle farming"@en, "Jungtierhaltung"@de ;
+skos:broader <livestock_category/cattle> ;
+skos:narrower <cubicle_housing> ;
+skos:narrower <loose_housing_with_single_type_flooring> ;
+skos:narrower <loose_housing_with_two_type_flooring> ;
+skos:narrower <others> ;
+skos:inScheme <> .
+
+<livestock_production/cattle_fattening> a skos:Concept ;
+skos:prefLabel "Cattle fattening"@en, "Rindermast"@de ;
+skos:broader <livestock_category/cattle> ;
+skos:narrower <cubicle_housing> ;
+skos:narrower <loose_housing_with_single_type_flooring> ;
+skos:narrower <loose_housing_with_two_type_flooring> ;
+skos:narrower <others> ;
+skos:inScheme <> .
+
+<livestock_production/calf_raising> a skos:Concept ;
+skos:prefLabel "Calf raising"@en, "Kälberaufzucht"@de ;
+skos:broader <livestock_category/cattle> ;
+skos:narrower <loose_housing_with_single_type_flooring> ;
+skos:narrower <loose_housing_with_two_type_flooring> ;
+skos:narrower <igloo_hut_housing> ;
+skos:narrower <calf_boxes> ;
+skos:narrower <others> ;
+skos:inScheme <> .
+
+<livestock_production/calf_fattening> a skos:Concept ;
+skos:prefLabel "Calf fattening"@en, "Kälbermast"@de ;
+skos:broader <livestock_category/cattle> ;
+skos:narrower <loose_housing_with_single_type_flooring> ;
+skos:narrower <loose_housing_with_two_type_flooring> ;
+skos:narrower <others> ;
+skos:inScheme <> .
+
+<livestock_production/suckler_cow_farming> a skos:Concept ;
+skos:prefLabel "Suckler cow farming"@en, "Mutterkuhhaltung"@de ;
+skos:broader <livestock_category/cattle> ;
+skos:narrower <loose_housing_with_single_type_flooring> ;
+skos:narrower <loose_housing_with_two_type_flooring> ;
+skos:narrower <others> ;
+skos:inScheme <> .
+
+<livestock_production/piglet_production> a skos:Concept ;
+skos:prefLabel "Piglet production"@en, "Ferkelhaltung"@de ;
+skos:broader <livestock_category/pig> ;
+skos:narrower <farrowing_area_with_single_area_pen> ;
+skos:narrower <farrowing_area_with_multiple_area_pen> ;
+skos:narrower <waiting_and_matting_area_with_multiple_area_pen> ;
+skos:narrower <others> ;
+skos:inScheme <> .
+
+<livestock_production/piglet_raising> a skos:Concept ;
+skos:prefLabel "Piglet raising"@en, "Ferkelaufzucht"@de ;
+skos:broader <livestock_category/pig> ;
+skos:narrower <farrowing_area_with_single_area_pen> ;
+skos:narrower <farrowing_area_with_multiple_area_pen> ;
+skos:narrower <others> ;
+skos:inScheme <> .
+
+<livestock_production/pig_fattening> a skos:Concept ;
+skos:prefLabel "Pig fattening"@en, "Schweinemast"@de ;
+skos:broader <livestock_category/pig> ;
+skos:narrower <farrowing_area_with_single_area_pen> ;
+skos:narrower <farrowing_area_with_multiple_area_pen> ;
+skos:narrower <others> ;
+skos:inScheme <> .
+
+<livestock_production/laying_hen_farming> a skos:Concept ;
 skos:prefLabel "Laying hen farming"@en, "Legehennenhaltung"@de ;
-skos:broader <livestock-production/chicken> ;
-skos:narrower <floor-housing> ;
-skos:narrower <floor-housing-with-aviaries> ;
-skos:narrower <mobile-housing> ;
-skos:narrower <other> ;
+skos:broader <livestock_category/chicken> ;
+skos:narrower <floor_housing> ;
+skos:narrower <floor_housing_with_aviaries> ;
+skos:narrower <mobile_housing> ;
+skos:narrower <others> ;
 skos:inScheme <> .
 
-<young-hen-farming> a skos:Concept ;
+<livestock_production/young_hen_farming> a skos:Concept ;
 skos:prefLabel "Young hen farming"@en, "Junghuhnhaltung"@de ;
-skos:broader <livestock-production/chicken> ;
-skos:narrower <floor-housing> ;
-skos:narrower <floor-housing-with-aviaries> ;
-skos:narrower <other> ;
+skos:broader <livestock_category/chicken> ;
+skos:narrower <floor_housing> ;
+skos:narrower <floor_housing_with_aviaries> ;
+skos:narrower <others> ;
 skos:inScheme <> .
 
-<broiler-fattening> a skos:Concept ;
+<livestock_production/broiler_fattening> a skos:Concept ;
 skos:prefLabel "Broiler fattening"@en, "Hühnermast"@de ;
-skos:broader <livestock-production/chicken> ;
-skos:narrower <floor-housing> ;
-skos:narrower <other> ;
+skos:broader <livestock_category/chicken> ;
+skos:narrower <floor_housing> ;
+skos:narrower <others> ;
 skos:inScheme <> .
 
-<livestock-production/turkey> a skos:Concept ;
-skos:prefLabel "Turkey"@en, "Truthahn"@de ;
-skos:narrower <turkey-raising> ;
-skos:narrower <turkey-fattening> ;
-skos:narrower <solid-manure> ;
-skos:narrower <perforated-floor> ;
-skos:narrower <other> ;
-skos:topConceptOf <> .
-
-<turkey-raising> a skos:Concept ;
+<livestock_production/turkey_raising> a skos:Concept ;
 skos:prefLabel "Turkey raising"@en, "Truthahnaufzucht"@de ;
-skos:broader <livestock-production/turkey> ;
-skos:narrower <floor-housing> ;
-skos:narrower <other> ;
+skos:broader <livestock_category/turkey> ;
+skos:narrower <floor_housing> ;
+skos:narrower <others> ;
 skos:inScheme <> .
 
-<turkey-fattening> a skos:Concept ;
+<livestock_production/turkey_fattening> a skos:Concept ;
 skos:prefLabel "Turkey fattening"@en, "Truthahnmast"@de ;
-skos:broader <livestock-production/turkey> ;
-skos:narrower <floor-housing> ;
-skos:narrower <other> ;
+skos:broader <livestock_category/turkey> ;
+skos:narrower <floor_housing> ;
+skos:narrower <others> ;
 skos:inScheme <> .
 
-<livestock-production/duck> a skos:Concept ;
-skos:prefLabel "Duck"@en, "Ente"@de ;
-skos:narrower <duck-fattening> ;
-skos:narrower <solid-manure> ;
-skos:narrower <perforated-floor> ;
-skos:narrower <other> ;
+<livestock_production/duck_fattening> a skos:Concept ;
+skos:prefLabel "Duck fattening"@en, "Entenmast"@de ;
+skos:broader <livestock_category/duck> ;
+skos:narrower <floor_housing> ;
+skos:narrower <others> ;
+skos:inScheme <> .
+
+<housing_systems> a skos:Concept ;
+skos:prefLabel "Additional housing systems"@en, "Zusätzliche Haltungsinformation"@de ;
+skos:narrower <housing_systems/cubicle_h> ;
+skos:narrower <housing_systems/loose_h_1_type_floor> ;
+skos:narrower <housing_systems/loose_h_2_type_floor> ;
+skos:narrower <housing_systems/calf_boxes_h> ;
+skos:narrower <housing_systems/igloo_or_hut_h> ;
+skos:narrower <housing_systems/1_area_pen> ;
+skos:narrower <housing_systems/multi_area_pen> ;
+skos:narrower <housing_systems/farrow_1_area_pen> ;
+skos:narrower <housing_systems/farrow_multi_area_pen> ;
+skos:narrower <housing_systems/wait_mate_area_multi_area_pen> ;
+skos:narrower <housing_systems/yard> ;
+skos:narrower <housing_systems/veranda> ;
+skos:narrower <housing_systems/manure_belt> ;
 skos:topConceptOf <> .
 
-<duck-fattening> a skos:Concept ;
-skos:prefLabel "Duck fattening"@en, "Entenmast"@de ;
-skos:broader <livestock-production/duck> ;
-skos:narrower <floor-housing> ;
-skos:narrower <other> ;
-skos:inScheme <> .
-
-<floor-housing> a skos:Concept ;
+<housing_systems/floor_housing> a skos:Concept ;
 skos:prefLabel "Floor housing"@en, "Bodenhaltung"@de ;
-skos:broader <duck-fattening> ;
-skos:broader <laying-hen-farming> ;
-skos:broader <young-hen-farming> ;
-skos:broader <chicken-fattening> ;
-skos:broader <turkey-fattening> ;
-skos:broader <turkey-raising> ;
+skos:broader <housing_systems> ;
+skos:broader <livestock_production/duck_fattening> ;
+skos:broader <livestock_production/laying_hen_farming> ;
+skos:broader <livestock_production/young_hen_farming> ;
+skos:broader <livestock_production/chicken_fattening> ;
+skos:broader <livestock_production/turkey_fattening> ;
+skos:broader <livestock_production/turkey_raising> ;
 skos:inScheme <> .
 
-<floor-housing-with-aviaries> a skos:Concept ;
+<housing_systems/floor_housing_with_aviaries> a skos:Concept ;
 skos:prefLabel "Floor housing with aviaries"@en, "Volierenhaltung"@de ;
-skos:broader <laying-hen-farming> ;
-skos:broader <young-hen-farming> ;
+skos:broader <housing_systems> ;
+skos:broader <livestock_production/laying_hen_farming> ;
+skos:broader <livestock_production/young_hen_farming> ;
 skos:inScheme <> .
 
-<mobile-housing> a skos:Concept ;
+<housing_systems/mobile_housing> a skos:Concept ;
 skos:prefLabel "Mobile housing"@en, "Mobile Stallhaltung"@de ;
-skos:broader <laying-hen-farming> ;
+skos:broader <housing_systems> ;
+skos:broader <livestock_production/laying_hen_farming> ;
 skos:inScheme <> .
 
-<cubicle-housing> a skos:Concept ;
-skos:prefLabel "Cubicle housing"@en, "Boxenhaltung"@de ;
-skos:broader <diary-cattle-farming> ;
-skos:broader <young-cattle-farming> ;
-skos:broader <cattle-fattening> ;
+<housing_systems/cubicle_h> a skos:Concept ;
+skos:prefLabel "Cubicle housing"@en, "Liegeboxenstall"@de ;
+skos:broader <housing_systems> ;
+skos:broader <livestock_production/diary_cattle_farming> ;
+skos:broader <livestock_production/young_cattle_farming> ;
+skos:broader <livestock_production/cattle_fattening> ;
 skos:inScheme <> .
 
-<calf-boxes> a skos:Concept ;
+<housing_systems/calf_boxes_h> a skos:Concept ;
 skos:prefLabel "Calf boxes"@en, "Kälberboxenhaltung"@de ;
-skos:broader <calf-raising> ;
+skos:broader <housing_systems> ;
+skos:broader <livestock_production/calf_raising> ;
 skos:inScheme <> .
 
-<igloo-hut-housing> a skos:Concept ;
-skos:prefLabel "Igloo hut housing"@en, "Haltung im Kälber-Iglu"@de ;
-skos:broader <calf-raising> ;
+<housing_systems/igloo_or_hut_h> a skos:Concept ;
+skos:prefLabel "Igloo or hut housing"@en, "Iglu- oder Hüttenhaltung"@de ;
+skos:broader <housing_systems> ;
+skos:broader <livestock_production/calf_raising> ;
 skos:inScheme <> .
 
-<loose-housing-with-single-type-flooring> a skos:Concept ;
-skos:prefLabel "Loose housing with single type flooring"@en, "Freilaufstallhaltung mit einem Bodentyp"@de ;
-skos:broader <diary-cattle-farming> ;
-skos:broader <young-cattle-farming> ;
-skos:broader <cattle-fattening> ;
-skos:broader <suckler-cow-farming> ;
-skos:broader <calf-raising> ;
-skos:broader <calf-fattening> ;
+<housing_systems/loose_h_1_type_floor> a skos:Concept ;
+skos:prefLabel "Loose housing with single type flooring"@en, "Einraumlaufstall"@de ;
+skos:broader <housing_systems>
+skos:broader <livestock_production/diary_cattle_farming> ;
+skos:broader <livestock_production/young_cattle_farming> ;
+skos:broader <livestock_production/cattle_fattening> ;
+skos:broader <livestock_production/suckler_cow_farming> ;
+skos:broader <livestock_production/calf_raising> ;
+skos:broader <livestock_production/calf_fattening> ;
 skos:inScheme <> .
 
-<loose-housing-with-two-type-flooring> a skos:Concept ;
-skos:prefLabel "Loose housing with two type flooring"@en, "Freilaufstallhaltung mit zwei Bodentypen"@de ;
-skos:broader <diary-cattle-farming> ;
-skos:broader <young-cattle-farming> ;
-skos:broader <cattle-fattening> ;
-skos:broader <suckler-cow-farming> ;
-skos:broader <calf-raising> ;
-skos:broader <calf-fattening> ;
+<housing_systems/loose_h_2_type_floor> a skos:Concept ;
+skos:prefLabel "Loose housing with two type flooring"@en, "Zweiraumlaufstall"@de ;
+skos:broader <housing_systems>
+skos:broader <livestock_production/diary_cattle_farming> ;
+skos:broader <livestock_production/young_cattle_farming> ;
+skos:broader <livestock_production/cattle_fattening> ;
+skos:broader <livestock_production/suckler_cow_farming> ;
+skos:broader <livestock_production/calf_raising> ;
+skos:broader <livestock_production/calf_fattening> ;
 skos:inScheme <> .
 
-<farrowing-area-with-single-area-pen> a skos:Concept ;
-skos:prefLabel "Farrowing area with single area pen"@en, "Abferkelbereich mit Einbereichsferch"@de ;
-skos:broader <pig-fattening> ;
-skos:broader <piglet-production> ;
-skos:broader <piglet-raising> ;
+<housing_systems/1_pen_area> a skos:Concept ;
+skos:prefLabel "Farrowing area with single area pen"@en, "Einflächenbucht"@de ;
+skos:broader <housing_systems>
+skos:broader <livestock_production/pig_fattening> ;
+skos:broader <livestock_production/piglet_production> ;
+skos:broader <livestock_production/piglet_raising> ;
 skos:inScheme <> .
 
-<farrowing-area-with-multiple-area-pen> a skos:Concept ;
-skos:prefLabel "Farrowing area with multi area pen"@en, "Abferkelbereich mit Mehrbereichsferch"@de ;
-skos:broader <pig-fattening> ;
-skos:broader <piglet-production> ;
-skos:broader <piglet-raising> ;
+<housing_systems/mult_area_pen> a skos:Concept ;
+skos:prefLabel "Farrowing area with multi area pen"@en, "Mehrflächenbucht"@de ;
+skos:broader <housing_systems>
+skos:broader <livestock_production/pig_fattening> ;
+skos:broader <livestock_production/piglet_production> ;
+skos:broader <livestock_production/piglet_raising> ;
 skos:inScheme <> .
 
-<waiting-and-matting-area-with-multiple-area-pen> a skos:Concept ;
-skos:prefLabel "Waiting and matting area with multi area pen"@en, "Aufenthaltsbereich mit Mehrbereichsferch"@de ;
-skos:broader <piglet-production> ;
+<housing_systems/farrow_area_1_pen_area> a skos:Concept ;
+skos:prefLabel "Farrowing area with single area pen"@en, "Abferkelbereich, Einflächenbucht"@de ;
+skos:broader <housing_systems>
+skos:broader <livestock_production/pig_fattening> ;
+skos:broader <livestock_production/piglet_production> ;
+skos:broader <livestock_production/piglet_raising> ;
 skos:inScheme <> .
 
-<other> a skos:Concept ;
+<housing_systems/farrow_area_mult_area_pen> a skos:Concept ;
+skos:prefLabel "Farrowing area with multi area pen"@en, "Abferkelbereich, Mehrflächenbucht"@de ;
+skos:broader <housing_systems>
+skos:broader <livestock_production/pig_fattening> ;
+skos:broader <livestock_production/piglet_production> ;
+skos:broader <livestock_production/piglet_raising> ;
+skos:inScheme <> .
+
+<housing_systems/wait_and_mate_area_mult_area_pen> a skos:Concept ;
+skos:prefLabel "Waiting and mating area with multi area pen"@en, "Deck-und Wartebereich, Mehrflächenbucht"@de ;
+skos:broader <housing_systems>
+skos:broader <livestock_production/piglet_production> ;
+skos:inScheme <> .
+
+<others> a skos:Concept ;
 skos:prefLabel "Other"@en, "Sonstiges"@de ;
-skos:broader <diary-cattle-farming> ;
-skos:broader <young-cattle-farming> ;
-skos:broader <suckler-cow-farming> ;
-skos:broader <cattle-fattening> ;
-skos:broader <calf-raising> ;
-skos:broader <calf-fattening> ;
-skos:broader <piglet-procuction> ;
-skos:broader <piglet-raising> ;
-skos:broader <pig-fattening> ;
-skos:broader <duck-fattening> ;
-skos:broader <laying-hen-farming> ;
-skos:broader <young-hen-farming> ;
-skos:broader <broiler-fattening> ;
-skos:broader <turkey-fattening> ;
-skos:broader <turkey-raising> ;
-skos:broader <ventilation> ;
-skos:broader <emission> ;
+skos:broader <livestock_production/diary_cattle_farming> ;
+skos:broader <livestock_production/young_cattle_farming> ;
+skos:broader <livestock_production/suckler_cow_farming> ;
+skos:broader <livestock_production/cattle_fattening> ;
+skos:broader <livestock_production/calf_raising> ;
+skos:broader <livestock_production/calf_fattening> ;
+skos:broader <livestock_production/piglet_procuction> ;
+skos:broader <livestock_production/piglet_raising> ;
+skos:broader <livestock_production/pig_fattening> ;
+skos:broader <livestock_production/duck_fattening> ;
+skos:broader <livestock_production/laying_hen_farming> ;
+skos:broader <livestock_production/young_hen_farming> ;
+skos:broader <livestock_production/broiler_fattening> ;
+skos:broader <livestock_production/turkey_fattening> ;
+skos:broader <livestock_production/turkey_raising> ;
+skos:broader <ventilation_system> ;
+skos:broader <emissions> ;
 skos:inScheme <> .
 
+<additional_housing_systems> a skos:Concept ;
+skos:prefLabel "Additional housing systems"@en, "Zusätzliche Haltungsinformation"@de ;
+skos:narrower <additional_housing_systems/solid_manure> ;
+skos:narrower <additional_housing_systems/liquid_manure> ;
+skos:narrower <additional_housing_systems/perforated_floor> ;
+skos:narrower <additional_housing_systems/solid_floor> ;
+skos:narrower <additional_housing_systems/pastures> ;
+skos:narrower <additional_housing_systems/yard> ;
+skos:narrower <additional_housing_systems/veranda> ;
+skos:narrower <additional_housing_systems/manure_belt> ;
+skos:topConceptOf <> .
 
-<solid-manure> a skos:Concept ;
+<additional_housing_systems/solid_manure> a skos:Concept ;
 skos:prefLabel "Solid manure"@en, "Festmist"@de ;
 skos:definition "MANURE from housed LIVESTOCK that does not flow under gravity, cannot be pumped but can be stacked in a heap. May include MANURE from cattle, pigs, poultry, horses, sheep, goats and rabbits. There are several different types of SOLID MANURE arising from different types of livestock housing, manure storage and treatment."@en ;
-skos:broader <livestock/cattle-production> ;
-skos:broader <livestock/pig-production> ;
-skos:broader <livestock/chicken-production> ;
-skos:broader <livestock/turkey-production> ;
-skos:broader <livestock/duck-production> ;
+skos:broader <additional_housing_systems> ;
+skos:broader <livestock/cattle_production> ;
+skos:broader <livestock/pig_production> ;
+skos:broader <livestock/chicken_production> ;
+skos:broader <livestock/turkey_production> ;
+skos:broader <livestock/duck_production> ;
 skos:inScheme <> .
 
-<liquid-manure> a skos:Concept ;
+<additional_housing_systems/liquid_manure> a skos:Concept ;
 skos:prefLabel "Liquid manure"@en, "Flüssigmist"@de ;
 skos:definition "A general term that denotes any MANURE from housed LIVESTOCK that flows under gravity and can be pumped. There are several different types of LIQUID MANURE arising from different types of LIVESTOCK housing, MANURE storage and TREATMENT."@en ;
 skos:exactMatch "http://aims.fao.org/aos/agrovoc/c_4373" ;
-skos:broader <livestock/cattle-production> ;
-skos:broader <livestock/pig-production> ;
+skos:broader <additional_housing_systems> ;
+skos:broader <livestock/cattle_production> ;
+skos:broader <livestock/pig_production> ;
 skos:inScheme <> .
 
-<perforated-floor> a skos:Concept ;
+<additional_housing_systems/perforated_floor> a skos:Concept ;
 skos:prefLabel "Perforated floor"@en, "Perforiert"@de ;
-skos:definition "Perforated floor"@en, "Spalten- oder Lochboden"@de ;
-skos:broader <livestock/cattle-production> ;
-skos:broader <livestock/pig-production> ;
-skos:broader <livestock/chicken-production> ;
-skos:broader <livestock/turkey-production> ;
-skos:broader <livestock/duck-production> ;
+skos:definition "Perforated floor"@en, "Spalten_ oder Lochboden"@de ;
+skos:broader <additional_housing_systems> ;
+skos:broader <livestock/cattle_production> ;
+skos:broader <livestock/pig_production> ;
+skos:broader <livestock/chicken_production> ;
+skos:broader <livestock/turkey_production> ;
+skos:broader <livestock/duck_production> ;
 skos:inScheme <> .
 
-<solid-floor> a skos:Concept ;
+<additional_housing_systems/solid_floor> a skos:Concept ;
 skos:prefLabel "Solid floor"@en, "Planbefestigter Boden"@de ;
-skos:broader <livestock/cattle-production> ;
-skos:broader <livestock/pig-production> ;
+skos:broader <additional_housing_systems> ;
+skos:broader <livestock/cattle_production> ;
+skos:broader <livestock/pig_production> ;
 skos:inScheme <> .
 
-<pastures> a skos:Concept ;
-skos:prefLabel "Pastures"@en, "Weidung"@de ;
-skos:broader <cattle-production> ;
-skos:broader <pig-production> ;
+<additional_housing_systems/pastures> a skos:Concept ;
+skos:prefLabel "Pastures"@en, "Weide"@de ;
+skos:broader <additional_housing_systems> ;
+skos:broader <cattle_production> ;
+skos:broader <pig_production> ;
 skos:inScheme <> .
 
-<yard> a skos:Concept ;
+<additional_housing_systems/yard> a skos:Concept ;
 skos:prefLabel "Yard"@en, "Haltung im Freien, auf undurchlässigen Boden"@de ;
-skos:broader <cattle-production> ;
-skos:broader <pig-production> ;
-skos:broader <chicken-production> ;
-skos:broader <turkey-production> ;
-skos:broader <duck-production> ;
+skos:broader <additional_housing_systems> ;
+skos:broader <cattle_production> ;
+skos:broader <pig_production> ;
+skos:broader <chicken_production> ;
+skos:broader <turkey_production> ;
+skos:broader <duck_production> ;
 skos:inScheme <> .
 
-<veranda> a skos:Concept ;
-skos:prefLabel "Veranda"@en, "Überdachter Auslauf"@de ;
-skos:broader <laying-hen> ;
-skos:broader <young-hen> ;
+<additional_housing_systems/veranda> a skos:Concept ;
+skos:prefLabel "Veranda"@en, "Kaltscharrhof"@de ;
+skos:broader <additional_housing_systems> ;
+skos:broader <laying_hen> ;
+skos:broader <young_hen> ;
 skos:inScheme <> .
 
-<manure-belt> a skos:Concept ;
-skos:prefLabel "Manure belt"@en, "Transportband für Mist"@de ;
-skos:broader <laying-hen> ;
-skos:broader <young-hen> ;
+<additional_housing_systems/manure_belt> a skos:Concept ;
+skos:prefLabel "Manure belt"@en, "Kotband"@de ;
+skos:broader <additional_housing_systems> ;
+skos:broader <laying_hen> ;
+skos:broader <young_hen> ;
 skos:inScheme <> .
 
-<ventilation> a skos:Concept ;
+<ventilation_system> a skos:Concept ;
 skos:prefLabel "Ventilation"@en, "Befüftung"@de ;
 skos:definition "The circulation of fresh air in order to provide fresh air and to remove gaseous products, heat and moisture to ensure a suitable climate in a LIVESTOCK building."@en ;
-skos:narrower <ventilation/natural-ventilation> ;
-skos:narrower <ventilation/forced-ventilation> ;
-skos:narrower <ventilation/hybrid-ventilation> ;
-skos:narrower <other> ;
+skos:narrower <ventilation_system/natural_ventilation_system> ;
+skos:narrower <ventilation_system/forced_ventilation_system> ;
+skos:narrower <ventilation_system/hybrid_ventilation_system> ;
+skos:narrower <others> ;
 skos:topConceptOf <> .
 
-<ventilation/natural-ventilation> a skos:Concept ;
-skos:prefLabel "Natural vemtilation"@en, "Natürliche Befüftung"@de ;
-skos:broader <ventilation> ;
+<ventilation_system/natural_ventilation_system> a skos:Concept ;
+skos:prefLabel "Natural ventilation"@en, "Natürliche Befüftung"@de ;
+skos:broader <ventilation_system> ;
 skos:inScheme <> .
 
-<ventilation/forced-ventilation> a skos:Concept ;
+<ventilation_system/forced_ventilation_system> a skos:Concept ;
 skos:prefLabel "Forced ventilation"@en, "Zwangsbefüftung"@de ;
-skos:broader <ventilation> ;
+skos:broader <ventilation_system> ;
 skos:inScheme <> .
 
-<ventilation/hybrid-ventilation> a skos:Concept ;
+<ventilation_system/hybrid_ventilation_system> a skos:Concept ;
 skos:prefLabel "Hybrid ventilation"@en, "Hybride Befüftung"@de ;
-skos:broader <ventilation> ;
+skos:broader <ventilation_system> ;
 skos:inScheme <> .
 
-<emission> a skos:Concept ;
-skos:prefLabel "Emission"@en, "Emission"@de ;
-skos:narrower <emission/ammonia> ;
-skos:narrower <emission/nitrous-oxide> ;
-skos:narrower <emission/carbon-dioxide> ;
-skos:narrower <emission/methan> ;
-skos:narrower <emission/odour> ;
-skos:narrower <emission/particles> ;
-skos:narrower <emission/bioaerosols> ;
-skos:narrower <other> ;
+<emi_measurement_techniques> a skos:Concept ;
+skos:prefLabel "EmiMin measurement techniques"@en, "EmiMin-Messverfahren"@de ;
+skos:definition "The circulation of fresh air in order to provide fresh air and to remove gaseous products, heat and moisture to ensure a suitable climate in a LIVESTOCK building."@en ;
+skos:narrower <emi_measurement_techniques/concentration_measurement> ;
+skos:narrower <emi_measurement_techniques/volume_flow_measurement> ;
+skos:narrower <emi_measurement_techniques/tracer_gas_method> ;
+skos:narrower <emi_measurement_techniques/static_chamber> ;
+skos:narrower <emi_measurement_techniques/dynamic_chamber> ;
 skos:topConceptOf <> .
 
-<emission/ammonia> a skos:Concept ;
+<emi_measurement_techniques/concentration_measurement> a skos:Concept ;
+skos:prefLabel "Concentration measurement"@en, "Konzentrationsbestimmung"@de ;
+skos:broader <ventilation_system> ;
+skos:inScheme <> .
+
+<emi_measurement_techniques/volume_flow_measurement> a skos:Concept ;
+skos:prefLabel "Volume flow measurement"@en, "Volumenstrommessung"@de ;
+skos:broader <ventilation_system> ;
+skos:inScheme <> .
+
+<emi_measurement_techniques/tracer_gas_method> a skos:Concept ;
+skos:prefLabel "Tracer gas method"@en, "Tracer-Gasmethode"@de ;
+skos:broader <ventilation_system> ;
+skos:inScheme <> .
+
+<emi_measurement_techniques/static_chamber> a skos:Concept ;
+skos:prefLabel "Static chamber"@en, "Statische Haubenmessung"@de ;
+skos:broader <ventilation_system> ;
+skos:inScheme <> .
+
+<emi_measurement_techniques/dynamic_chamber> a skos:Concept ;
+skos:prefLabel "Dynamic chamber"@en, "Dynamische Haubenmessung"@de ;
+skos:broader <ventilation_system> ;
+skos:inScheme <> .
+
+<emissions> a skos:Concept ;
+skos:prefLabel "Emission"@en, "Emission"@de ;
+skos:narrower <emissions/nh3> ;
+skos:narrower <emissions/n2o> ;
+skos:narrower <emissions/co2> ;
+skos:narrower <emissions/ch4> ;
+skos:narrower <emissions/odour> ;
+skos:narrower <emissions/dust> ;
+skos:narrower <emissions/bioaerosols> ;
+skos:narrower <others> ;
+skos:topConceptOf <> .
+
+<emissions/nh3> a skos:Concept ;
 skos:prefLabel "Ammonia NH₃"@en, "Ammoniak NH₃"@de ;
-skos:broader <emission> ;
+skos:broader <emissions> ;
 skos:inScheme <> .
 
-<emission/carbon-dioxide> a skos:Concept ;
+<emissions/co2> a skos:Concept ;
 skos:prefLabel "Carbon dioxide CO₂"@en, "Kohlendioxid CO₂"@de ;
-skos:broader <emission> ;
+skos:broader <emissions> ;
 skos:inScheme <> .
 
-<emission/nitrous-oxide> a skos:Concept ;
+<emissions/n2o> a skos:Concept ;
 skos:prefLabel "Nitrous oxide N₂O"@en, "Distickstoffmonoxid  N₂O (Lachgas)"@de ;
-skos:broader <emission> ;
+skos:broader <emissions> ;
 skos:inScheme <> .
 
-<emission/methan> a skos:Concept ;
+<emissions/ch4> a skos:Concept ;
 skos:prefLabel "Methan CH₄"@en, "Methan CH₄"@de ;
-skos:broader <emission> ;
+skos:broader <emissions> ;
 skos:inScheme <> .
 
-<emission/odour> a skos:Concept ;
+<emissions/odour> a skos:Concept ;
 skos:prefLabel "Odour"@en, "Geruch"@de ;
-skos:broader <emission> ;
+skos:broader <emissions> ;
 skos:inScheme <> .
 
-<emission/particles> a skos:Concept ;
+<emissions/dust> a skos:Concept ;
 skos:prefLabel "Particles"@en, "Staub, Partikel"@de ;
-skos:broader <emission> ;
+skos:broader <emissions> ;
 skos:inScheme <> .
 
-<emission/odour> a skos:Concept ;
+<emissions/odour> a skos:Concept ;
 skos:prefLabel "Odour"@en, "Geruch"@de ;
-skos:broader <emission> ;
+skos:broader <emissions> ;
 skos:inScheme <> .
 
-<emission/bioaerosols> a skos:Concept ;
+<emissions/bioaerosols> a skos:Concept ;
 skos:prefLabel "Bioaerosols"@en, "Biologische Aerosole"@de ;
-skos:broader <emission> ;
+skos:broader <emissions> ;
+skos:inScheme <> .
+
+<emission_reduction_methods> a skos:Concept ;
+skos:prefLabel "Emission reduction methods"@en, "Emissionsminderungsverfahren"@de ;
+skos:narrower <emission_reduction_methods/feed_supplements> ;
+skos:narrower <emission_reduction_methods/manure_belt> ;
+skos:narrower <emission_reduction_methods/slurry_cooling> ;
+skos:narrower <emission_reduction_methods/underfl_scrap_faeces_urine_sep> ;
+skos:narrower <emission_reduction_methods/grooved_finger_floor_scraper> ;
+skos:narrower <emission_reduction_methods/slurry_channel_reduction> ;
+skos:narrower <emission_reduction_methods/litter_aeration> ;
+skos:narrower <emission_reduction_methods/slurry_treatment_whey> ;
+skos:narrower <emission_reduction_methods/urease_inhibitor> ;
+skos:narrower <emission_reduction_methods/nutrition_reduced_feeding> ;
+skos:narrower <emission_reduction_methods/reduced_slat_ratio> ;
+skos:narrower <emission_reduction_methods/faeces_urine_separation> ;
+skos:narrower <emission_reduction_methods/underfloor_scraper> ;
+skos:narrower <emission_reduction_methods/above_floor_scraper>> ;
+skos:narrower <emission_reduction_methods/incr_manure_removal_interval> ;
+skos:narrower <emission_reduction_methods/slurry_channel_flushing_system> ;
+skos:narrower <emission_reduction_methods/slurry_acidification> ;
+skos:narrower <emission_reduction_methods/air_cleaning> ;
+skos:narrower <emission_reduction_methods/incoming_air_cooling> ;
+skos:narrower <emission_reduction_methods/manure_drying> ;
+skos:narrower <emission_reduction_methods/manure_supplements> ;
+skos:narrower <emission_reduction_methods/slit_sealing_flaps> ;
+skos:narrower <others> ;
+skos:topConceptOf <> .
+
+<emission_reduction_methods/feed_supplements> a skos:Concept ;
+skos:prefLabel "Feed supplements (FS)"@en, "Nahrungsergänzung"@de ;
+skos:broader <emission_reduction_methods> ;
+skos:inScheme <> .
+
+<emission_reduction_methods/manure_belt> a skos:Concept ;
+skos:prefLabel "Manure belt (MB)"@en, "Kotband"@de ;
+skos:broader <emission_reduction_methods> ;
+skos:inScheme <> .
+
+<emission_reduction_methods/slurry_cooling> a skos:Concept ;
+skos:prefLabel "Slurry cooling (SC)"@en, "Güllekühlung"@de ;
+skos:broader <emission_reduction_methods> ;
+skos:inScheme <> .
+
+<emission_reduction_methods/underfl_scrap_faeces_urine_sep> a skos:Concept ;
+skos:prefLabel "Underfloor scraper with faeces and urine separation (USFUS)"@en, "Unterflurschieber mit Kot-Harn-Trennung"@de ;
+skos:broader <emission_reduction_methods> ;
+skos:inScheme <> .
+
+<emission_reduction_methods/grooved_finger_floor_scraper> a skos:Concept ;
+skos:prefLabel "Grooved finger floor scraper (GFFS)"@en, "Rillenboden mit Fingerschieber"@de ;
+skos:broader <emission_reduction_methods> ;
+skos:inScheme <> .
+
+<emission_reduction_methods/slurry_channel_reduction> a skos:Concept ;
+skos:prefLabel "Slurry channel reduction (SCR)"@en, "Güllekanalverkleinerung"@de ;
+skos:broader <emission_reduction_methods> ;
+skos:inScheme <> .
+
+<emission_reduction_methods/litter_aeration> a skos:Concept ;
+skos:prefLabel "Litter aeration (LA)"@en, "Einstreubelüftung"@de ;
+skos:broader <emission_reduction_methods> ;
+skos:inScheme <> .
+
+<emission_reduction_methods/slurry_treatment_whey> a skos:Concept ;
+skos:prefLabel "Slurry treatment whey (W)"@en, "Güllebehandlung mit Molke"@de ;
+skos:broader <emission_reduction_methods> ;
+skos:inScheme <> .
+
+<emission_reduction_methods/urease_inhibitor> a skos:Concept ;
+skos:prefLabel "Urease inhibitor (UI)"@en, "Ureaseinhibitor"@de ;
+skos:broader <emission_reduction_methods> ;
+skos:inScheme <> .
+
+<emission_reduction_methods/nutrition_reduced_feeding> a skos:Concept ;
+skos:prefLabel "Nutrition reduced feeding (NRF)"@en, "Nährstoffreduzierte Fütterung"@de ;
+skos:broader <emission_reduction_methods> ;
+skos:inScheme <> .
+<emission_reduction_methods/reduced_slat_ratio> a skos:Concept ;
+skos:prefLabel "(RSR)"@en, "Reduzierter Schlitzanteil"@de ;
+skos:broader <emission_reduction_methods> ;
+skos:inScheme <> .
+
+<emission_reduction_methods/faeces_urine_separation> a skos:Concept ;
+skos:prefLabel "Faeces urine separation (FUS)"@en, "Kot-Harn-Trennung"@de ;
+skos:broader <emission_reduction_methods> ;
+skos:inScheme <> .
+
+<emission_reduction_methods/underfloor_scraper> a skos:Concept ;
+skos:prefLabel "Underfloor Scraper (US)"@en, "Unterflurschieber"@de ;
+skos:broader <emission_reduction_methods> ;
+skos:inScheme <> .
+
+<emission_reduction_methods/above_floor_scraper> a skos:Concept ;
+skos:prefLabel "Above floor Scraper (AFS)"@en, "Überflurschieber"@de ;
+skos:broader <emission_reduction_methods> ;
+skos:inScheme <> .
+
+<emission_reduction_methods/incr_manure_removal_interval> a skos:Concept ;
+skos:prefLabel "Increased manure removal intervall (IMRI)"@en, "Erhöhtes Entmistungsintervall"@de ;
+skos:broader <emission_reduction_methods> ;
+skos:inScheme <> .
+
+<emission_reduction_methods/slurry_channel_flushing_system> a skos:Concept ;
+skos:prefLabel "Slurry channel flushing system (SCFS)"@en, "Güllekanalspülsystem"@de ;
+skos:broader <emission_reduction_methods> ;
+skos:inScheme <> .
+
+<emission_reduction_methods/slurry_acidification> a skos:Concept ;
+skos:prefLabel "Slurry acidification (SA)"@en, "Güllesäuerung"@de ;
+skos:broader <emission_reduction_methods> ;
+skos:inScheme <> .
+
+<emission_reduction_methods/air_cleaning> a skos:Concept ;
+skos:prefLabel "Air cleaning (AC)"@en, "Abluftreinigung"@de ;
+skos:broader <emission_reduction_methods> ;
+skos:inScheme <> .
+
+<emission_reduction_methods/incoming_air_cooling> a skos:Concept ;
+skos:prefLabel "Incoming air cooling (IAC)"@en, "Zuluftkühlung"@de ;
+skos:broader <emission_reduction_methods> ;
+skos:inScheme <> .
+
+<emission_reduction_methods/manure_drying> a skos:Concept ;
+skos:prefLabel "Manure drying (MD)"@en, "Kottrocknung"@de ;
+skos:broader <emission_reduction_methods> ;
+skos:inScheme <> .
+
+<emission_reduction_methods/manure_supplements> a skos:Concept ;
+skos:prefLabel "Manure supplements (MS)"@en, "Gülle- / Mistzusatzstoffe"@de ;
+skos:broader <emission_reduction_methods> ;
+skos:inScheme <> .
+
+<emission_reduction_methods/slit_sealing_flaps> a skos:Concept ;
+skos:prefLabel "Slit sealing flaps (SSF)"@en, "Spaltendichtungsklappen"@de ;
+skos:broader <emission_reduction_methods> ;
+skos:inScheme <> .
+
+<project_title> a skos:Concept ;
+skos:prefLabel "Project title"@en, "Projektbezeichnung"@de ;
+skos:narrower <project_title/emimin> ;
+skos:narrower <project_title/emidat> ;
+skos:topConceptOf <> .
+
+<project_title/emimin> a skos:Concept ;
+skos:prefLabel "EmiMin"@en, "EmiMin"@de ;
+skos:broader <project_title> ;
+skos:inScheme <> .
+
+<project_title/emidat> a skos:Concept ;
+skos:prefLabel "EmiDat"@en, "EmiDat"@de ;
+skos:broader <project_title> ;
+skos:inScheme <> .
+
+
+<test_design> a skos:Concept ;
+skos:prefLabel "Test design"@en, "Durchführungsart"@de ;
+skos:narrower <test_design/case_control> ;
+skos:narrower <test_design/multi_site> ;
+skos:topConceptOf <> .
+
+
+<test_design/case_control> a skos:Concept ;
+skos:prefLabel "Case control"@en, "Fallkontrolle"@de ;
+skos:broader <test_design> ;
+skos:inScheme <> .
+
+<test_design/multi_site> a skos:Concept ;
+skos:prefLabel "Multi site"@en, "Mehrere Betriebsstandorte"@de ;
+skos:broader <test_design> ;
 skos:inScheme <> .
