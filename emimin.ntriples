@@ -1,0 +1,737 @@
+<https://www.ktbl.de/emimin#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://www.ktbl.de/emimin#> <http://www.w3.org/2004/02/skos/core#prefLabel> "ktbl Emi vocabulary"@en .
+<https://www.ktbl.de/emimin#> <http://www.w3.org/2004/02/skos/core#prefLabel> "ktbl Emi Vokabular"@de .
+<https://www.ktbl.de/emimin#> <http://purl.org/dc/terms/title> "Common metadata vocabulary for Emi and associated projects"@en .
+<https://www.ktbl.de/livestock_category> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/livestock_category> <http://www.w3.org/2004/02/skos/core#prefLabel> "Livestock category"@en .
+<https://www.ktbl.de/livestock_category> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tierart"@de .
+<https://www.ktbl.de/livestock_category> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/livestock_category/cattle> .
+<https://www.ktbl.de/livestock_category> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/livestock_category/pig> .
+<https://www.ktbl.de/livestock_category> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/livestock_category/chicken> .
+<https://www.ktbl.de/livestock_category> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/livestock_category/turkey> .
+<https://www.ktbl.de/livestock_category> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/livestock_category/duck> .
+<https://www.ktbl.de/livestock_category> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/livestock_category/cattle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/livestock_category/cattle> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cattle"@en .
+<https://www.ktbl.de/livestock_category/cattle> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rind"@de .
+<https://www.ktbl.de/livestock_category/cattle> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category> .
+<https://www.ktbl.de/livestock_category/cattle> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/livestock_production/diary_cattle_farming> .
+<https://www.ktbl.de/livestock_category/cattle> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/livestock_production/young_cattle_farming> .
+<https://www.ktbl.de/livestock_category/cattle> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/livestock_production/cattle_fattening> .
+<https://www.ktbl.de/livestock_category/cattle> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/livestock_production/calf_raising> .
+<https://www.ktbl.de/livestock_category/cattle> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/livestock_production/calf_fattening> .
+<https://www.ktbl.de/livestock_category/cattle> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/livestock_production/suckler_cow_farming> .
+<https://www.ktbl.de/livestock_category/cattle> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/additional_housing_systems/solid_manure> .
+<https://www.ktbl.de/livestock_category/cattle> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/additional_housing_systems/liquid_manure> .
+<https://www.ktbl.de/livestock_category/cattle> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/additional_housing_systems/perforated_floor> .
+<https://www.ktbl.de/livestock_category/cattle> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/additional_housing_systems/solid_floor> .
+<https://www.ktbl.de/livestock_category/cattle> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/others> .
+<https://www.ktbl.de/livestock_category/cattle> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/livestock_category/pig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/livestock_category/pig> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pig"@en .
+<https://www.ktbl.de/livestock_category/pig> <http://www.w3.org/2004/02/skos/core#prefLabel> "Schwein"@de .
+<https://www.ktbl.de/livestock_category/pig> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category> .
+<https://www.ktbl.de/livestock_category/pig> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/livestock_production/piglet_production> .
+<https://www.ktbl.de/livestock_category/pig> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/livestock_production/piglet_raising> .
+<https://www.ktbl.de/livestock_category/pig> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/livestock_production/pig_fattening> .
+<https://www.ktbl.de/livestock_category/pig> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/additional_housing_systems/solid_manure> .
+<https://www.ktbl.de/livestock_category/pig> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/additional_housing_systems/liquid_manure> .
+<https://www.ktbl.de/livestock_category/pig> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/additional_housing_systems/perforated_floor> .
+<https://www.ktbl.de/livestock_category/pig> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/additional_housing_systems/solid_floor> .
+<https://www.ktbl.de/livestock_category/pig> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/others> .
+<https://www.ktbl.de/livestock_category/pig> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/livestock_category/chicken> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/livestock_category/chicken> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chicken"@en .
+<https://www.ktbl.de/livestock_category/chicken> <http://www.w3.org/2004/02/skos/core#prefLabel> "Huhn"@de .
+<https://www.ktbl.de/livestock_category/chicken> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category> .
+<https://www.ktbl.de/livestock_category/chicken> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/livestock_production/laying_hen_farming> .
+<https://www.ktbl.de/livestock_category/chicken> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/livestock_production/young_hen_farming> .
+<https://www.ktbl.de/livestock_category/chicken> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/livestock_production/broiler_fattening> .
+<https://www.ktbl.de/livestock_category/chicken> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/additional_housing_systems/solid_manure> .
+<https://www.ktbl.de/livestock_category/chicken> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/additional_housing_systems/perforated_floor> .
+<https://www.ktbl.de/livestock_category/chicken> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/others> .
+<https://www.ktbl.de/livestock_category/chicken> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/livestock_category/turkey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/livestock_category/turkey> <http://www.w3.org/2004/02/skos/core#prefLabel> "Turkey"@en .
+<https://www.ktbl.de/livestock_category/turkey> <http://www.w3.org/2004/02/skos/core#prefLabel> "Truthahn"@de .
+<https://www.ktbl.de/livestock_category/turkey> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category> .
+<https://www.ktbl.de/livestock_category/turkey> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/livestock_production/turkey_raising> .
+<https://www.ktbl.de/livestock_category/turkey> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/livestock_production/turkey_fattening> .
+<https://www.ktbl.de/livestock_category/turkey> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/additional_housing_systems/solid_manure> .
+<https://www.ktbl.de/livestock_category/turkey> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/additional_housing_systems/perforated_floor> .
+<https://www.ktbl.de/livestock_category/turkey> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/others> .
+<https://www.ktbl.de/livestock_category/turkey> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/livestock_category/duck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/livestock_category/duck> <http://www.w3.org/2004/02/skos/core#prefLabel> "Duck"@en .
+<https://www.ktbl.de/livestock_category/duck> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ente"@de .
+<https://www.ktbl.de/livestock_category/duck> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category> .
+<https://www.ktbl.de/livestock_category/duck> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/livestock_production/duck_fattening> .
+<https://www.ktbl.de/livestock_category/duck> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/additional_housing_systems/solid_manure> .
+<https://www.ktbl.de/livestock_category/duck> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/additional_housing_systems/perforated_floor> .
+<https://www.ktbl.de/livestock_category/duck> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/others> .
+<https://www.ktbl.de/livestock_category/duck> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/laying_hen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/laying_hen> <http://www.w3.org/2004/02/skos/core#prefLabel> "Laying hen"@en .
+<https://www.ktbl.de/laying_hen> <http://www.w3.org/2004/02/skos/core#prefLabel> "Legehuhn"@de .
+<https://www.ktbl.de/laying_hen> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category/chicken> .
+<https://www.ktbl.de/laying_hen> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/additional_housing_systems/veranda> .
+<https://www.ktbl.de/laying_hen> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/young_hen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/young_hen> <http://www.w3.org/2004/02/skos/core#prefLabel> "Young hen"@en .
+<https://www.ktbl.de/young_hen> <http://www.w3.org/2004/02/skos/core#prefLabel> "Legehuhn"@de .
+<https://www.ktbl.de/young_hen> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category/chicken> .
+<https://www.ktbl.de/young_hen> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/additional_housing_systems/veranda> .
+<https://www.ktbl.de/young_hen> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/livestock_production> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/livestock_production> <http://www.w3.org/2004/02/skos/core#prefLabel> "Livestock production"@en .
+<https://www.ktbl.de/livestock_production> <http://www.w3.org/2004/02/skos/core#prefLabel> "Produktionsart"@de .
+<https://www.ktbl.de/livestock_production> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/livestock_production/diary_cattle_farming> .
+<https://www.ktbl.de/livestock_production> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/livestock_production/young_cattle_farming> .
+<https://www.ktbl.de/livestock_production> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/livestock_production/cattle_fattening> .
+<https://www.ktbl.de/livestock_production> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/livestock_production/calf_raising> .
+<https://www.ktbl.de/livestock_production> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/livestock_production/calf_fattening> .
+<https://www.ktbl.de/livestock_production> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/livestock_production/suckler_cow_farming> .
+<https://www.ktbl.de/livestock_production> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/livestock_production/piglet_production> .
+<https://www.ktbl.de/livestock_production> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/livestock_production/piglet_raising> .
+<https://www.ktbl.de/livestock_production> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/livestock_production/pig_fattening> .
+<https://www.ktbl.de/livestock_production> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/livestock_production/laying_hen_farming> .
+<https://www.ktbl.de/livestock_production> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/livestock_production/young_hen_farming> .
+<https://www.ktbl.de/livestock_production> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/livestock_production/broiler_fattening> .
+<https://www.ktbl.de/livestock_production> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/livestock_production/turkey_raising> .
+<https://www.ktbl.de/livestock_production> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/livestock_production/turkey_fattening> .
+<https://www.ktbl.de/livestock_production> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/livestock_production/duck_fattening> .
+<https://www.ktbl.de/livestock_production> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/livestock_production/diary_cattle_farming> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/livestock_production/diary_cattle_farming> <http://www.w3.org/2004/02/skos/core#prefLabel> "Diary cattle farming"@en .
+<https://www.ktbl.de/livestock_production/diary_cattle_farming> <http://www.w3.org/2004/02/skos/core#prefLabel> "Milchkuhhaltung"@de .
+<https://www.ktbl.de/livestock_production/diary_cattle_farming> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category/cattle> .
+<https://www.ktbl.de/livestock_production/diary_cattle_farming> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/cubicle_h> .
+<https://www.ktbl.de/livestock_production/diary_cattle_farming> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/loose_h_1_type_floor> .
+<https://www.ktbl.de/livestock_production/diary_cattle_farming> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/loose_h_2_type_floor> .
+<https://www.ktbl.de/livestock_production/diary_cattle_farming> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/others> .
+<https://www.ktbl.de/livestock_production/diary_cattle_farming> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/livestock_production/young_cattle_farming> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/livestock_production/young_cattle_farming> <http://www.w3.org/2004/02/skos/core#prefLabel> "Young cattle farming"@en .
+<https://www.ktbl.de/livestock_production/young_cattle_farming> <http://www.w3.org/2004/02/skos/core#prefLabel> "Jungtierhaltung"@de .
+<https://www.ktbl.de/livestock_production/young_cattle_farming> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production> .
+<https://www.ktbl.de/livestock_production/young_cattle_farming> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category/cattle> .
+<https://www.ktbl.de/livestock_production/young_cattle_farming> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/cubicle_h> .
+<https://www.ktbl.de/livestock_production/young_cattle_farming> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/loose_h_1_type_floor> .
+<https://www.ktbl.de/livestock_production/young_cattle_farming> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/loose_h_2_type_floor> .
+<https://www.ktbl.de/livestock_production/young_cattle_farming> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/others> .
+<https://www.ktbl.de/livestock_production/young_cattle_farming> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/livestock_production/cattle_fattening> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/livestock_production/cattle_fattening> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cattle fattening"@en .
+<https://www.ktbl.de/livestock_production/cattle_fattening> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rindermast"@de .
+<https://www.ktbl.de/livestock_production/cattle_fattening> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production> .
+<https://www.ktbl.de/livestock_production/cattle_fattening> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category/cattle> .
+<https://www.ktbl.de/livestock_production/cattle_fattening> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/cubicle_h> .
+<https://www.ktbl.de/livestock_production/cattle_fattening> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/loose_h_1_type_floor> .
+<https://www.ktbl.de/livestock_production/cattle_fattening> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/loose_h_2_type_floor> .
+<https://www.ktbl.de/livestock_production/cattle_fattening> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/others> .
+<https://www.ktbl.de/livestock_production/cattle_fattening> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/livestock_production/calf_raising> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/livestock_production/calf_raising> <http://www.w3.org/2004/02/skos/core#prefLabel> "Calf raising"@en .
+<https://www.ktbl.de/livestock_production/calf_raising> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kälberaufzucht"@de .
+<https://www.ktbl.de/livestock_production/calf_raising> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production> .
+<https://www.ktbl.de/livestock_production/calf_raising> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category/cattle> .
+<https://www.ktbl.de/livestock_production/calf_raising> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/loose_h_1_type_floor> .
+<https://www.ktbl.de/livestock_production/calf_raising> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/loose_h_2_type_floor> .
+<https://www.ktbl.de/livestock_production/calf_raising> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/igloo_or_hut_h> .
+<https://www.ktbl.de/livestock_production/calf_raising> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/calf_boxes_h> .
+<https://www.ktbl.de/livestock_production/calf_raising> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/others> .
+<https://www.ktbl.de/livestock_production/calf_raising> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/livestock_production/calf_fattening> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/livestock_production/calf_fattening> <http://www.w3.org/2004/02/skos/core#prefLabel> "Calf fattening"@en .
+<https://www.ktbl.de/livestock_production/calf_fattening> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kälbermast"@de .
+<https://www.ktbl.de/livestock_production/calf_fattening> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production> .
+<https://www.ktbl.de/livestock_production/calf_fattening> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category/cattle> .
+<https://www.ktbl.de/livestock_production/calf_fattening> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/loose_h_1_type_floor> .
+<https://www.ktbl.de/livestock_production/calf_fattening> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/loose_h_2_type_floor> .
+<https://www.ktbl.de/livestock_production/calf_fattening> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/others> .
+<https://www.ktbl.de/livestock_production/calf_fattening> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/livestock_production/suckler_cow_farming> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/livestock_production/suckler_cow_farming> <http://www.w3.org/2004/02/skos/core#prefLabel> "Suckler cow farming"@en .
+<https://www.ktbl.de/livestock_production/suckler_cow_farming> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mutterkuhhaltung"@de .
+<https://www.ktbl.de/livestock_production/suckler_cow_farming> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production> .
+<https://www.ktbl.de/livestock_production/suckler_cow_farming> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category/cattle> .
+<https://www.ktbl.de/livestock_production/suckler_cow_farming> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/loose_h_1_type_floor> .
+<https://www.ktbl.de/livestock_production/suckler_cow_farming> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/loose_h_2_type_floor> .
+<https://www.ktbl.de/livestock_production/suckler_cow_farming> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/others> .
+<https://www.ktbl.de/livestock_production/suckler_cow_farming> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/livestock_production/piglet_production> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/livestock_production/piglet_production> <http://www.w3.org/2004/02/skos/core#prefLabel> "Piglet production"@en .
+<https://www.ktbl.de/livestock_production/piglet_production> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ferkelhaltung"@de .
+<https://www.ktbl.de/livestock_production/piglet_production> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production> .
+<https://www.ktbl.de/livestock_production/piglet_production> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category/pig> .
+<https://www.ktbl.de/livestock_production/piglet_production> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/farrow_area_1_area_pen> .
+<https://www.ktbl.de/livestock_production/piglet_production> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/farrow_area_mult_area_pen> .
+<https://www.ktbl.de/livestock_production/piglet_production> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/wait_mate_area_mult_area_pen> .
+<https://www.ktbl.de/livestock_production/piglet_production> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/others> .
+<https://www.ktbl.de/livestock_production/piglet_production> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/livestock_production/piglet_raising> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/livestock_production/piglet_raising> <http://www.w3.org/2004/02/skos/core#prefLabel> "Piglet raising"@en .
+<https://www.ktbl.de/livestock_production/piglet_raising> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ferkelaufzucht"@de .
+<https://www.ktbl.de/livestock_production/piglet_raising> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production> .
+<https://www.ktbl.de/livestock_production/piglet_raising> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category/pig> .
+<https://www.ktbl.de/livestock_production/piglet_raising> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/1_area_pen> .
+<https://www.ktbl.de/livestock_production/piglet_raising> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/mult_area_pen> .
+<https://www.ktbl.de/livestock_production/piglet_raising> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/others> .
+<https://www.ktbl.de/livestock_production/piglet_raising> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/livestock_production/pig_fattening> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/livestock_production/pig_fattening> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pig fattening"@en .
+<https://www.ktbl.de/livestock_production/pig_fattening> <http://www.w3.org/2004/02/skos/core#prefLabel> "Schweinemast"@de .
+<https://www.ktbl.de/livestock_production/pig_fattening> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production> .
+<https://www.ktbl.de/livestock_production/pig_fattening> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category/pig> .
+<https://www.ktbl.de/livestock_production/pig_fattening> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/1_area_pen> .
+<https://www.ktbl.de/livestock_production/pig_fattening> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/mult_area_pen> .
+<https://www.ktbl.de/livestock_production/pig_fattening> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/others> .
+<https://www.ktbl.de/livestock_production/pig_fattening> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/livestock_production/laying_hen_farming> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/livestock_production/laying_hen_farming> <http://www.w3.org/2004/02/skos/core#prefLabel> "Laying hen farming"@en .
+<https://www.ktbl.de/livestock_production/laying_hen_farming> <http://www.w3.org/2004/02/skos/core#prefLabel> "Legehennenhaltung"@de .
+<https://www.ktbl.de/livestock_production/laying_hen_farming> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production> .
+<https://www.ktbl.de/livestock_production/laying_hen_farming> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category/chicken> .
+<https://www.ktbl.de/livestock_production/laying_hen_farming> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/floor_h> .
+<https://www.ktbl.de/livestock_production/laying_hen_farming> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/floor_housing_with_aviaries> .
+<https://www.ktbl.de/livestock_production/laying_hen_farming> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/mobile_h> .
+<https://www.ktbl.de/livestock_production/laying_hen_farming> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/others> .
+<https://www.ktbl.de/livestock_production/laying_hen_farming> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/livestock_production/young_hen_farming> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/livestock_production/young_hen_farming> <http://www.w3.org/2004/02/skos/core#prefLabel> "Young hen farming"@en .
+<https://www.ktbl.de/livestock_production/young_hen_farming> <http://www.w3.org/2004/02/skos/core#prefLabel> "Junghuhnhaltung"@de .
+<https://www.ktbl.de/livestock_production/young_hen_farming> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production> .
+<https://www.ktbl.de/livestock_production/young_hen_farming> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category/chicken> .
+<https://www.ktbl.de/livestock_production/young_hen_farming> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/floor_h> .
+<https://www.ktbl.de/livestock_production/young_hen_farming> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/floor_housing_with_aviaries> .
+<https://www.ktbl.de/livestock_production/young_hen_farming> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/others> .
+<https://www.ktbl.de/livestock_production/young_hen_farming> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/livestock_production/broiler_fattening> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/livestock_production/broiler_fattening> <http://www.w3.org/2004/02/skos/core#prefLabel> "Broiler fattening"@en .
+<https://www.ktbl.de/livestock_production/broiler_fattening> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hühnermast"@de .
+<https://www.ktbl.de/livestock_production/broiler_fattening> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production> .
+<https://www.ktbl.de/livestock_production/broiler_fattening> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category/chicken> .
+<https://www.ktbl.de/livestock_production/broiler_fattening> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/floor_h> .
+<https://www.ktbl.de/livestock_production/broiler_fattening> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/others> .
+<https://www.ktbl.de/livestock_production/broiler_fattening> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/livestock_production/turkey_raising> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/livestock_production/turkey_raising> <http://www.w3.org/2004/02/skos/core#prefLabel> "Turkey raising"@en .
+<https://www.ktbl.de/livestock_production/turkey_raising> <http://www.w3.org/2004/02/skos/core#prefLabel> "Truthahnaufzucht"@de .
+<https://www.ktbl.de/livestock_production/turkey_raising> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production> .
+<https://www.ktbl.de/livestock_production/turkey_raising> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category/turkey> .
+<https://www.ktbl.de/livestock_production/turkey_raising> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/floor_h> .
+<https://www.ktbl.de/livestock_production/turkey_raising> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/others> .
+<https://www.ktbl.de/livestock_production/turkey_raising> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/livestock_production/turkey_fattening> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/livestock_production/turkey_fattening> <http://www.w3.org/2004/02/skos/core#prefLabel> "Turkey fattening"@en .
+<https://www.ktbl.de/livestock_production/turkey_fattening> <http://www.w3.org/2004/02/skos/core#prefLabel> "Truthahnmast"@de .
+<https://www.ktbl.de/livestock_production/turkey_fattening> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production> .
+<https://www.ktbl.de/livestock_production/turkey_fattening> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category/turkey> .
+<https://www.ktbl.de/livestock_production/turkey_fattening> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/floor_h> .
+<https://www.ktbl.de/livestock_production/turkey_fattening> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/others> .
+<https://www.ktbl.de/livestock_production/turkey_fattening> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/livestock_production/duck_fattening> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/livestock_production/duck_fattening> <http://www.w3.org/2004/02/skos/core#prefLabel> "Duck fattening"@en .
+<https://www.ktbl.de/livestock_production/duck_fattening> <http://www.w3.org/2004/02/skos/core#prefLabel> "Entenmast"@de .
+<https://www.ktbl.de/livestock_production/duck_fattening> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production> .
+<https://www.ktbl.de/livestock_production/duck_fattening> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category/duck> .
+<https://www.ktbl.de/livestock_production/duck_fattening> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/floor_h> .
+<https://www.ktbl.de/livestock_production/duck_fattening> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/others> .
+<https://www.ktbl.de/livestock_production/duck_fattening> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/housing_systems> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/housing_systems> <http://www.w3.org/2004/02/skos/core#prefLabel> "Additional housing systems"@en .
+<https://www.ktbl.de/housing_systems> <http://www.w3.org/2004/02/skos/core#prefLabel> "Haltungsform"@de .
+<https://www.ktbl.de/housing_systems> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/cubicle_h> .
+<https://www.ktbl.de/housing_systems> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/loose_h_1_type_floor> .
+<https://www.ktbl.de/housing_systems> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/loose_h_2_type_floor> .
+<https://www.ktbl.de/housing_systems> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/calf_boxes_h> .
+<https://www.ktbl.de/housing_systems> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/igloo_or_hut_h> .
+<https://www.ktbl.de/housing_systems> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/1_area_pen> .
+<https://www.ktbl.de/housing_systems> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/mult_area_pen> .
+<https://www.ktbl.de/housing_systems> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/farrow_area_1_area_pen> .
+<https://www.ktbl.de/housing_systems> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/farrow_area_mult_area_pen> .
+<https://www.ktbl.de/housing_systems> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/wait_mate_area_mult_area_pen> .
+<https://www.ktbl.de/housing_systems> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/others> .
+<https://www.ktbl.de/housing_systems> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/housing_systems/floor_h> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/housing_systems/floor_h> <http://www.w3.org/2004/02/skos/core#prefLabel> "Floor housing"@en .
+<https://www.ktbl.de/housing_systems/floor_h> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bodenhaltung"@de .
+<https://www.ktbl.de/housing_systems/floor_h> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/housing_systems> .
+<https://www.ktbl.de/housing_systems/floor_h> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/duck_fattening> .
+<https://www.ktbl.de/housing_systems/floor_h> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/laying_hen_farming> .
+<https://www.ktbl.de/housing_systems/floor_h> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/young_hen_farming> .
+<https://www.ktbl.de/housing_systems/floor_h> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/chicken_fattening> .
+<https://www.ktbl.de/housing_systems/floor_h> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/turkey_fattening> .
+<https://www.ktbl.de/housing_systems/floor_h> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/turkey_raising> .
+<https://www.ktbl.de/housing_systems/floor_h> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/housing_systems/floor_housing_with_aviaries> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/housing_systems/floor_housing_with_aviaries> <http://www.w3.org/2004/02/skos/core#prefLabel> "Floor housing with aviaries"@en .
+<https://www.ktbl.de/housing_systems/floor_housing_with_aviaries> <http://www.w3.org/2004/02/skos/core#prefLabel> "Volierenhaltung"@de .
+<https://www.ktbl.de/housing_systems/floor_housing_with_aviaries> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/housing_systems> .
+<https://www.ktbl.de/housing_systems/floor_housing_with_aviaries> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/laying_hen_farming> .
+<https://www.ktbl.de/housing_systems/floor_housing_with_aviaries> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/young_hen_farming> .
+<https://www.ktbl.de/housing_systems/floor_housing_with_aviaries> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/housing_systems/mobile_h> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/housing_systems/mobile_h> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mobile housing"@en .
+<https://www.ktbl.de/housing_systems/mobile_h> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mobile Stallhaltung"@de .
+<https://www.ktbl.de/housing_systems/mobile_h> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/housing_systems> .
+<https://www.ktbl.de/housing_systems/mobile_h> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/laying_hen_farming> .
+<https://www.ktbl.de/housing_systems/mobile_h> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/housing_systems/cubicle_h> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/housing_systems/cubicle_h> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cubicle housing"@en .
+<https://www.ktbl.de/housing_systems/cubicle_h> <http://www.w3.org/2004/02/skos/core#prefLabel> "Liegeboxenstall"@de .
+<https://www.ktbl.de/housing_systems/cubicle_h> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/housing_systems> .
+<https://www.ktbl.de/housing_systems/cubicle_h> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/diary_cattle_farming> .
+<https://www.ktbl.de/housing_systems/cubicle_h> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/young_cattle_farming> .
+<https://www.ktbl.de/housing_systems/cubicle_h> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/cattle_fattening> .
+<https://www.ktbl.de/housing_systems/cubicle_h> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/housing_systems/calf_boxes_h> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/housing_systems/calf_boxes_h> <http://www.w3.org/2004/02/skos/core#prefLabel> "Calf boxes"@en .
+<https://www.ktbl.de/housing_systems/calf_boxes_h> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kälberboxenhaltung"@de .
+<https://www.ktbl.de/housing_systems/calf_boxes_h> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/housing_systems> .
+<https://www.ktbl.de/housing_systems/calf_boxes_h> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/calf_raising> .
+<https://www.ktbl.de/housing_systems/calf_boxes_h> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/housing_systems/igloo_or_hut_h> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/housing_systems/igloo_or_hut_h> <http://www.w3.org/2004/02/skos/core#prefLabel> "Igloo or hut housing"@en .
+<https://www.ktbl.de/housing_systems/igloo_or_hut_h> <http://www.w3.org/2004/02/skos/core#prefLabel> "Iglu- oder Hüttenhaltung"@de .
+<https://www.ktbl.de/housing_systems/igloo_or_hut_h> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/housing_systems> .
+<https://www.ktbl.de/housing_systems/igloo_or_hut_h> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/calf_raising> .
+<https://www.ktbl.de/housing_systems/igloo_or_hut_h> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/housing_systems/loose_h_1_type_floor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/housing_systems/loose_h_1_type_floor> <http://www.w3.org/2004/02/skos/core#prefLabel> "Loose housing with single type flooring"@en .
+<https://www.ktbl.de/housing_systems/loose_h_1_type_floor> <http://www.w3.org/2004/02/skos/core#prefLabel> "Einraumlaufstall"@de .
+<https://www.ktbl.de/housing_systems/loose_h_1_type_floor> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/housing_systems> .
+<https://www.ktbl.de/housing_systems/loose_h_1_type_floor> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/diary_cattle_farming> .
+<https://www.ktbl.de/housing_systems/loose_h_1_type_floor> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/young_cattle_farming> .
+<https://www.ktbl.de/housing_systems/loose_h_1_type_floor> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/cattle_fattening> .
+<https://www.ktbl.de/housing_systems/loose_h_1_type_floor> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/suckler_cow_farming> .
+<https://www.ktbl.de/housing_systems/loose_h_1_type_floor> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/calf_raising> .
+<https://www.ktbl.de/housing_systems/loose_h_1_type_floor> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/calf_fattening> .
+<https://www.ktbl.de/housing_systems/loose_h_1_type_floor> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/housing_systems/loose_h_2_type_floor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/housing_systems/loose_h_2_type_floor> <http://www.w3.org/2004/02/skos/core#prefLabel> "Loose housing with two type flooring"@en .
+<https://www.ktbl.de/housing_systems/loose_h_2_type_floor> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zweiraumlaufstall"@de .
+<https://www.ktbl.de/housing_systems/loose_h_2_type_floor> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/housing_systems> .
+<https://www.ktbl.de/housing_systems/loose_h_2_type_floor> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/diary_cattle_farming> .
+<https://www.ktbl.de/housing_systems/loose_h_2_type_floor> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/young_cattle_farming> .
+<https://www.ktbl.de/housing_systems/loose_h_2_type_floor> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/cattle_fattening> .
+<https://www.ktbl.de/housing_systems/loose_h_2_type_floor> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/suckler_cow_farming> .
+<https://www.ktbl.de/housing_systems/loose_h_2_type_floor> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/calf_raising> .
+<https://www.ktbl.de/housing_systems/loose_h_2_type_floor> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/calf_fattening> .
+<https://www.ktbl.de/housing_systems/loose_h_2_type_floor> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/housing_systems/1_area_pen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/housing_systems/1_area_pen> <http://www.w3.org/2004/02/skos/core#prefLabel> "Farrowing area with single area pen"@en .
+<https://www.ktbl.de/housing_systems/1_area_pen> <http://www.w3.org/2004/02/skos/core#prefLabel> "Einflächenbucht"@de .
+<https://www.ktbl.de/housing_systems/1_area_pen> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/housing_systems> .
+<https://www.ktbl.de/housing_systems/1_area_pen> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/pig_fattening> .
+<https://www.ktbl.de/housing_systems/1_area_pen> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/piglet_production> .
+<https://www.ktbl.de/housing_systems/1_area_pen> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/piglet_raising> .
+<https://www.ktbl.de/housing_systems/1_area_pen> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/housing_systems/mult_area_pen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/housing_systems/mult_area_pen> <http://www.w3.org/2004/02/skos/core#prefLabel> "Farrowing area with multi area pen"@en .
+<https://www.ktbl.de/housing_systems/mult_area_pen> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mehrflächenbucht"@de .
+<https://www.ktbl.de/housing_systems/mult_area_pen> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/housing_systems> .
+<https://www.ktbl.de/housing_systems/mult_area_pen> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/pig_fattening> .
+<https://www.ktbl.de/housing_systems/mult_area_pen> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/piglet_production> .
+<https://www.ktbl.de/housing_systems/mult_area_pen> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/piglet_raising> .
+<https://www.ktbl.de/housing_systems/mult_area_pen> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/housing_systems/farrow_area_1_area_pen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/housing_systems/farrow_area_1_area_pen> <http://www.w3.org/2004/02/skos/core#prefLabel> "Farrowing area with single area pen"@en .
+<https://www.ktbl.de/housing_systems/farrow_area_1_area_pen> <http://www.w3.org/2004/02/skos/core#prefLabel> "Abferkelbereich, Einflächenbucht"@de .
+<https://www.ktbl.de/housing_systems/farrow_area_1_area_pen> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/housing_systems> .
+<https://www.ktbl.de/housing_systems/farrow_area_1_area_pen> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/pig_fattening> .
+<https://www.ktbl.de/housing_systems/farrow_area_1_area_pen> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/piglet_production> .
+<https://www.ktbl.de/housing_systems/farrow_area_1_area_pen> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/piglet_raising> .
+<https://www.ktbl.de/housing_systems/farrow_area_1_area_pen> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/housing_systems/farrow_area_mult_area_pen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/housing_systems/farrow_area_mult_area_pen> <http://www.w3.org/2004/02/skos/core#prefLabel> "Farrowing area with multi area pen"@en .
+<https://www.ktbl.de/housing_systems/farrow_area_mult_area_pen> <http://www.w3.org/2004/02/skos/core#prefLabel> "Abferkelbereich, Mehrflächenbucht"@de .
+<https://www.ktbl.de/housing_systems/farrow_area_mult_area_pen> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/housing_systems> .
+<https://www.ktbl.de/housing_systems/farrow_area_mult_area_pen> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/pig_fattening> .
+<https://www.ktbl.de/housing_systems/farrow_area_mult_area_pen> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/piglet_production> .
+<https://www.ktbl.de/housing_systems/farrow_area_mult_area_pen> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/piglet_raising> .
+<https://www.ktbl.de/housing_systems/farrow_area_mult_area_pen> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/housing_systems/wait_mate_area_mult_area_pen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/housing_systems/wait_mate_area_mult_area_pen> <http://www.w3.org/2004/02/skos/core#prefLabel> "Waiting and mating area with multi area pen"@en .
+<https://www.ktbl.de/housing_systems/wait_mate_area_mult_area_pen> <http://www.w3.org/2004/02/skos/core#prefLabel> "Deck-und Wartebereich, Mehrflächenbucht"@de .
+<https://www.ktbl.de/housing_systems/wait_mate_area_mult_area_pen> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/housing_systems> .
+<https://www.ktbl.de/housing_systems/wait_mate_area_mult_area_pen> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/piglet_production> .
+<https://www.ktbl.de/housing_systems/wait_mate_area_mult_area_pen> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/additional_housing_systems> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/additional_housing_systems> <http://www.w3.org/2004/02/skos/core#prefLabel> "Additional housing systems"@en .
+<https://www.ktbl.de/additional_housing_systems> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zusätzliche Haltungsinformation"@de .
+<https://www.ktbl.de/additional_housing_systems> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/additional_housing_systems/solid_manure> .
+<https://www.ktbl.de/additional_housing_systems> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/additional_housing_systems/liquid_manure> .
+<https://www.ktbl.de/additional_housing_systems> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/additional_housing_systems/perforated_floor> .
+<https://www.ktbl.de/additional_housing_systems> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/additional_housing_systems/solid_floor> .
+<https://www.ktbl.de/additional_housing_systems> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/additional_housing_systems/pastures> .
+<https://www.ktbl.de/additional_housing_systems> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/additional_housing_systems/yard> .
+<https://www.ktbl.de/additional_housing_systems> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/additional_housing_systems/veranda> .
+<https://www.ktbl.de/additional_housing_systems> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/additional_housing_systems/manure_belt> .
+<https://www.ktbl.de/additional_housing_systems> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/additional_housing_systems/solid_manure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/additional_housing_systems/solid_manure> <http://www.w3.org/2004/02/skos/core#prefLabel> "Solid manure"@en .
+<https://www.ktbl.de/additional_housing_systems/solid_manure> <http://www.w3.org/2004/02/skos/core#prefLabel> "Festmist"@de .
+<https://www.ktbl.de/additional_housing_systems/solid_manure> <http://www.w3.org/2004/02/skos/core#definition> "MANURE from housed LIVESTOCK that does not flow under gravity, cannot be pumped but can be stacked in a heap. May include MANURE from cattle, pigs, poultry, horses, sheep, goats and rabbits. There are several different types of SOLID MANURE arising from different types of livestock housing, manure storage and treatment."@en .
+<https://www.ktbl.de/additional_housing_systems/solid_manure> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/additional_housing_systems> .
+<https://www.ktbl.de/additional_housing_systems/solid_manure> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category/cattle> .
+<https://www.ktbl.de/additional_housing_systems/solid_manure> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category/pig> .
+<https://www.ktbl.de/additional_housing_systems/solid_manure> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category/chicken> .
+<https://www.ktbl.de/additional_housing_systems/solid_manure> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category/turkey> .
+<https://www.ktbl.de/additional_housing_systems/solid_manure> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category/duck> .
+<https://www.ktbl.de/additional_housing_systems/solid_manure> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/additional_housing_systems/liquid_manure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/additional_housing_systems/liquid_manure> <http://www.w3.org/2004/02/skos/core#prefLabel> "Liquid manure"@en .
+<https://www.ktbl.de/additional_housing_systems/liquid_manure> <http://www.w3.org/2004/02/skos/core#prefLabel> "Flüssigmist"@de .
+<https://www.ktbl.de/additional_housing_systems/liquid_manure> <http://www.w3.org/2004/02/skos/core#definition> "A general term that denotes any MANURE from housed LIVESTOCK that flows under gravity and can be pumped. There are several different types of LIQUID MANURE arising from different types of LIVESTOCK housing, MANURE storage and TREATMENT."@en .
+<https://www.ktbl.de/additional_housing_systems/liquid_manure> <http://www.w3.org/2004/02/skos/core#exactMatch> "http://aims.fao.org/aos/agrovoc/c_4373" .
+<https://www.ktbl.de/additional_housing_systems/liquid_manure> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/additional_housing_systems> .
+<https://www.ktbl.de/additional_housing_systems/liquid_manure> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category/cattle> .
+<https://www.ktbl.de/additional_housing_systems/liquid_manure> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category/pig> .
+<https://www.ktbl.de/additional_housing_systems/liquid_manure> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/additional_housing_systems/perforated_floor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/additional_housing_systems/perforated_floor> <http://www.w3.org/2004/02/skos/core#prefLabel> "Perforated floor"@en .
+<https://www.ktbl.de/additional_housing_systems/perforated_floor> <http://www.w3.org/2004/02/skos/core#prefLabel> "Perforiert"@de .
+<https://www.ktbl.de/additional_housing_systems/perforated_floor> <http://www.w3.org/2004/02/skos/core#definition> "Perforated floor"@en .
+<https://www.ktbl.de/additional_housing_systems/perforated_floor> <http://www.w3.org/2004/02/skos/core#definition> "Spalten_ oder Lochboden"@de .
+<https://www.ktbl.de/additional_housing_systems/perforated_floor> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/additional_housing_systems> .
+<https://www.ktbl.de/additional_housing_systems/perforated_floor> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category/cattle> .
+<https://www.ktbl.de/additional_housing_systems/perforated_floor> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category/pig> .
+<https://www.ktbl.de/additional_housing_systems/perforated_floor> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category/chicken> .
+<https://www.ktbl.de/additional_housing_systems/perforated_floor> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category/turkey> .
+<https://www.ktbl.de/additional_housing_systems/perforated_floor> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category/duck> .
+<https://www.ktbl.de/additional_housing_systems/perforated_floor> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/additional_housing_systems/solid_floor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/additional_housing_systems/solid_floor> <http://www.w3.org/2004/02/skos/core#prefLabel> "Solid floor"@en .
+<https://www.ktbl.de/additional_housing_systems/solid_floor> <http://www.w3.org/2004/02/skos/core#prefLabel> "Planbefestigter Boden"@de .
+<https://www.ktbl.de/additional_housing_systems/solid_floor> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/additional_housing_systems> .
+<https://www.ktbl.de/additional_housing_systems/solid_floor> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category/cattle> .
+<https://www.ktbl.de/additional_housing_systems/solid_floor> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category/pig> .
+<https://www.ktbl.de/additional_housing_systems/solid_floor> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/additional_housing_systems/pastures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/additional_housing_systems/pastures> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pastures"@en .
+<https://www.ktbl.de/additional_housing_systems/pastures> <http://www.w3.org/2004/02/skos/core#prefLabel> "Weide"@de .
+<https://www.ktbl.de/additional_housing_systems/pastures> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/additional_housing_systems> .
+<https://www.ktbl.de/additional_housing_systems/pastures> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category/cattle> .
+<https://www.ktbl.de/additional_housing_systems/pastures> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category/pig> .
+<https://www.ktbl.de/additional_housing_systems/pastures> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/additional_housing_systems/yard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/additional_housing_systems/yard> <http://www.w3.org/2004/02/skos/core#prefLabel> "Yard"@en .
+<https://www.ktbl.de/additional_housing_systems/yard> <http://www.w3.org/2004/02/skos/core#prefLabel> "Haltung im Freien, auf undurchlässigen Boden"@de .
+<https://www.ktbl.de/additional_housing_systems/yard> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/additional_housing_systems> .
+<https://www.ktbl.de/additional_housing_systems/yard> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category/cattle> .
+<https://www.ktbl.de/additional_housing_systems/yard> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category/pig> .
+<https://www.ktbl.de/additional_housing_systems/yard> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category/chicken> .
+<https://www.ktbl.de/additional_housing_systems/yard> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category/turkey> .
+<https://www.ktbl.de/additional_housing_systems/yard> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category/duck> .
+<https://www.ktbl.de/additional_housing_systems/yard> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/additional_housing_systems/veranda> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/additional_housing_systems/veranda> <http://www.w3.org/2004/02/skos/core#prefLabel> "Veranda"@en .
+<https://www.ktbl.de/additional_housing_systems/veranda> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kaltscharrhof"@de .
+<https://www.ktbl.de/additional_housing_systems/veranda> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/additional_housing_systems> .
+<https://www.ktbl.de/additional_housing_systems/veranda> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/laying_hen> .
+<https://www.ktbl.de/additional_housing_systems/veranda> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/young_hen> .
+<https://www.ktbl.de/additional_housing_systems/veranda> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/additional_housing_systems/manure_belt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/additional_housing_systems/manure_belt> <http://www.w3.org/2004/02/skos/core#prefLabel> "Manure belt"@en .
+<https://www.ktbl.de/additional_housing_systems/manure_belt> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kotband"@de .
+<https://www.ktbl.de/additional_housing_systems/manure_belt> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/additional_housing_systems> .
+<https://www.ktbl.de/additional_housing_systems/manure_belt> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/laying_hen> .
+<https://www.ktbl.de/additional_housing_systems/manure_belt> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/young_hen> .
+<https://www.ktbl.de/additional_housing_systems/manure_belt> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/ventilation_system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/ventilation_system> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ventilation"@en .
+<https://www.ktbl.de/ventilation_system> <http://www.w3.org/2004/02/skos/core#prefLabel> "Befüftung"@de .
+<https://www.ktbl.de/ventilation_system> <http://www.w3.org/2004/02/skos/core#definition> "The circulation of fresh air in order to provide fresh air and to remove gaseous products, heat and moisture to ensure a suitable climate in a LIVESTOCK building."@en .
+<https://www.ktbl.de/ventilation_system> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/ventilation_system/natural_ventilation_system> .
+<https://www.ktbl.de/ventilation_system> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/ventilation_system/forced_ventilation_system> .
+<https://www.ktbl.de/ventilation_system> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/ventilation_system/hybrid_ventilation_system> .
+<https://www.ktbl.de/ventilation_system> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/others> .
+<https://www.ktbl.de/ventilation_system> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/ventilation_system/natural_ventilation_system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/ventilation_system/natural_ventilation_system> <http://www.w3.org/2004/02/skos/core#prefLabel> "Natural ventilation"@en .
+<https://www.ktbl.de/ventilation_system/natural_ventilation_system> <http://www.w3.org/2004/02/skos/core#prefLabel> "Natürliche Befüftung"@de .
+<https://www.ktbl.de/ventilation_system/natural_ventilation_system> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/ventilation_system> .
+<https://www.ktbl.de/ventilation_system/natural_ventilation_system> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/ventilation_system/forced_ventilation_system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/ventilation_system/forced_ventilation_system> <http://www.w3.org/2004/02/skos/core#prefLabel> "Forced ventilation"@en .
+<https://www.ktbl.de/ventilation_system/forced_ventilation_system> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zwangsbefüftung"@de .
+<https://www.ktbl.de/ventilation_system/forced_ventilation_system> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/ventilation_system> .
+<https://www.ktbl.de/ventilation_system/forced_ventilation_system> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/ventilation_system/hybrid_ventilation_system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/ventilation_system/hybrid_ventilation_system> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hybrid ventilation"@en .
+<https://www.ktbl.de/ventilation_system/hybrid_ventilation_system> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hybride Befüftung"@de .
+<https://www.ktbl.de/ventilation_system/hybrid_ventilation_system> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/ventilation_system> .
+<https://www.ktbl.de/ventilation_system/hybrid_ventilation_system> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/emi_measurement_techniques> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/emi_measurement_techniques> <http://www.w3.org/2004/02/skos/core#prefLabel> "EmiMin measurement techniques"@en .
+<https://www.ktbl.de/emi_measurement_techniques> <http://www.w3.org/2004/02/skos/core#prefLabel> "EmiMin-Messverfahren"@de .
+<https://www.ktbl.de/emi_measurement_techniques> <http://www.w3.org/2004/02/skos/core#definition> "The circulation of fresh air in order to provide fresh air and to remove gaseous products, heat and moisture to ensure a suitable climate in a LIVESTOCK building."@en .
+<https://www.ktbl.de/emi_measurement_techniques> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/emi_measurement_techniques/concentration_measurement> .
+<https://www.ktbl.de/emi_measurement_techniques> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/emi_measurement_techniques/volume_flow_measurement> .
+<https://www.ktbl.de/emi_measurement_techniques> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/emi_measurement_techniques/tracer_gas_method> .
+<https://www.ktbl.de/emi_measurement_techniques> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/emi_measurement_techniques/static_chamber> .
+<https://www.ktbl.de/emi_measurement_techniques> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/emi_measurement_techniques/dynamic_chamber> .
+<https://www.ktbl.de/emi_measurement_techniques> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/emi_measurement_techniques/concentration_measurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/emi_measurement_techniques/concentration_measurement> <http://www.w3.org/2004/02/skos/core#prefLabel> "Concentration measurement"@en .
+<https://www.ktbl.de/emi_measurement_techniques/concentration_measurement> <http://www.w3.org/2004/02/skos/core#prefLabel> "Konzentrationsbestimmung"@de .
+<https://www.ktbl.de/emi_measurement_techniques/concentration_measurement> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/emi_measurement_techniques> .
+<https://www.ktbl.de/emi_measurement_techniques/concentration_measurement> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/emi_measurement_techniques/volume_flow_measurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/emi_measurement_techniques/volume_flow_measurement> <http://www.w3.org/2004/02/skos/core#prefLabel> "Volume flow measurement"@en .
+<https://www.ktbl.de/emi_measurement_techniques/volume_flow_measurement> <http://www.w3.org/2004/02/skos/core#prefLabel> "Volumenstrommessung"@de .
+<https://www.ktbl.de/emi_measurement_techniques/volume_flow_measurement> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/emi_measurement_techniques> .
+<https://www.ktbl.de/emi_measurement_techniques/volume_flow_measurement> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/emi_measurement_techniques/tracer_gas_method> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/emi_measurement_techniques/tracer_gas_method> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tracer gas method"@en .
+<https://www.ktbl.de/emi_measurement_techniques/tracer_gas_method> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tracer-Gasmethode"@de .
+<https://www.ktbl.de/emi_measurement_techniques/tracer_gas_method> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/emi_measurement_techniques> .
+<https://www.ktbl.de/emi_measurement_techniques/tracer_gas_method> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/emi_measurement_techniques/static_chamber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/emi_measurement_techniques/static_chamber> <http://www.w3.org/2004/02/skos/core#prefLabel> "Static chamber"@en .
+<https://www.ktbl.de/emi_measurement_techniques/static_chamber> <http://www.w3.org/2004/02/skos/core#prefLabel> "Statische Haubenmessung"@de .
+<https://www.ktbl.de/emi_measurement_techniques/static_chamber> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/emi_measurement_techniques> .
+<https://www.ktbl.de/emi_measurement_techniques/static_chamber> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/emi_measurement_techniques/dynamic_chamber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/emi_measurement_techniques/dynamic_chamber> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dynamic chamber"@en .
+<https://www.ktbl.de/emi_measurement_techniques/dynamic_chamber> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dynamische Haubenmessung"@de .
+<https://www.ktbl.de/emi_measurement_techniques/dynamic_chamber> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/emi_measurement_techniques> .
+<https://www.ktbl.de/emi_measurement_techniques/dynamic_chamber> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/emissions> <http://www.w3.org/2004/02/skos/core#prefLabel> "Emission"@en .
+<https://www.ktbl.de/emissions> <http://www.w3.org/2004/02/skos/core#prefLabel> "Emission"@de .
+<https://www.ktbl.de/emissions> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/emissions/nh3> .
+<https://www.ktbl.de/emissions> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/emissions/n2o> .
+<https://www.ktbl.de/emissions> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/emissions/co2> .
+<https://www.ktbl.de/emissions> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/emissions/ch4> .
+<https://www.ktbl.de/emissions> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/emissions/odour> .
+<https://www.ktbl.de/emissions> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/emissions/dust> .
+<https://www.ktbl.de/emissions> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/emissions/bioaerosols> .
+<https://www.ktbl.de/emissions> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/others> .
+<https://www.ktbl.de/emissions> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/emissions/nh3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/emissions/nh3> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ammonia NH₃"@en .
+<https://www.ktbl.de/emissions/nh3> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ammoniak NH₃"@de .
+<https://www.ktbl.de/emissions/nh3> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/emissions> .
+<https://www.ktbl.de/emissions/nh3> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/emissions/co2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/emissions/co2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Carbon dioxide CO₂"@en .
+<https://www.ktbl.de/emissions/co2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kohlendioxid CO₂"@de .
+<https://www.ktbl.de/emissions/co2> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/emissions> .
+<https://www.ktbl.de/emissions/co2> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/emissions/n2o> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/emissions/n2o> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nitrous oxide N₂O"@en .
+<https://www.ktbl.de/emissions/n2o> <http://www.w3.org/2004/02/skos/core#prefLabel> "Distickstoffmonoxid  N₂O (Lachgas)"@de .
+<https://www.ktbl.de/emissions/n2o> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/emissions> .
+<https://www.ktbl.de/emissions/n2o> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/emissions/ch4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/emissions/ch4> <http://www.w3.org/2004/02/skos/core#prefLabel> "Methan CH₄"@en .
+<https://www.ktbl.de/emissions/ch4> <http://www.w3.org/2004/02/skos/core#prefLabel> "Methan CH₄"@de .
+<https://www.ktbl.de/emissions/ch4> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/emissions> .
+<https://www.ktbl.de/emissions/ch4> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/emissions/odour> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/emissions/odour> <http://www.w3.org/2004/02/skos/core#prefLabel> "Odour"@en .
+<https://www.ktbl.de/emissions/odour> <http://www.w3.org/2004/02/skos/core#prefLabel> "Geruch"@de .
+<https://www.ktbl.de/emissions/odour> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/emissions> .
+<https://www.ktbl.de/emissions/odour> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/emissions/dust> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/emissions/dust> <http://www.w3.org/2004/02/skos/core#prefLabel> "Particles"@en .
+<https://www.ktbl.de/emissions/dust> <http://www.w3.org/2004/02/skos/core#prefLabel> "Staub, Partikel"@de .
+<https://www.ktbl.de/emissions/dust> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/emissions> .
+<https://www.ktbl.de/emissions/dust> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/emissions/bioaerosols> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/emissions/bioaerosols> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bioaerosols"@en .
+<https://www.ktbl.de/emissions/bioaerosols> <http://www.w3.org/2004/02/skos/core#prefLabel> "Biologische Aerosole"@de .
+<https://www.ktbl.de/emissions/bioaerosols> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/emissions> .
+<https://www.ktbl.de/emissions/bioaerosols> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/emission_reduction_methods> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/emission_reduction_methods> <http://www.w3.org/2004/02/skos/core#prefLabel> "Emission reduction methods"@en .
+<https://www.ktbl.de/emission_reduction_methods> <http://www.w3.org/2004/02/skos/core#prefLabel> "Emissionsminderungsverfahren"@de .
+<https://www.ktbl.de/emission_reduction_methods> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/emission_reduction_methods/feed_supplements> .
+<https://www.ktbl.de/emission_reduction_methods> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/emission_reduction_methods/manure_belt> .
+<https://www.ktbl.de/emission_reduction_methods> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/emission_reduction_methods/slurry_cooling> .
+<https://www.ktbl.de/emission_reduction_methods> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/emission_reduction_methods/underfl_scrap_faeces_urine_sep> .
+<https://www.ktbl.de/emission_reduction_methods> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/emission_reduction_methods/grooved_finger_floor_scraper> .
+<https://www.ktbl.de/emission_reduction_methods> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/emission_reduction_methods/slurry_channel_reduction> .
+<https://www.ktbl.de/emission_reduction_methods> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/emission_reduction_methods/litter_aeration> .
+<https://www.ktbl.de/emission_reduction_methods> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/emission_reduction_methods/slurry_treatment_whey> .
+<https://www.ktbl.de/emission_reduction_methods> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/emission_reduction_methods/urease_inhibitor> .
+<https://www.ktbl.de/emission_reduction_methods> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/emission_reduction_methods/nutrition_reduced_feeding> .
+<https://www.ktbl.de/emission_reduction_methods> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/emission_reduction_methods/reduced_slat_ratio> .
+<https://www.ktbl.de/emission_reduction_methods> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/emission_reduction_methods/faeces_urine_separation> .
+<https://www.ktbl.de/emission_reduction_methods> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/emission_reduction_methods/underfloor_scraper> .
+<https://www.ktbl.de/emission_reduction_methods> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/emission_reduction_methods/above_floor_scraper> .
+<https://www.ktbl.de/emission_reduction_methods> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/emission_reduction_methods/incr_manure_removal_interval> .
+<https://www.ktbl.de/emission_reduction_methods> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/emission_reduction_methods/slurry_channel_flushing_system> .
+<https://www.ktbl.de/emission_reduction_methods> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/emission_reduction_methods/slurry_acidification> .
+<https://www.ktbl.de/emission_reduction_methods> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/emission_reduction_methods/air_cleaning> .
+<https://www.ktbl.de/emission_reduction_methods> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/emission_reduction_methods/incoming_air_cooling> .
+<https://www.ktbl.de/emission_reduction_methods> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/emission_reduction_methods/manure_drying> .
+<https://www.ktbl.de/emission_reduction_methods> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/emission_reduction_methods/manure_supplements> .
+<https://www.ktbl.de/emission_reduction_methods> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/emission_reduction_methods/slit_sealing_flaps> .
+<https://www.ktbl.de/emission_reduction_methods> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/others> .
+<https://www.ktbl.de/emission_reduction_methods> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/emission_reduction_methods/feed_supplements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/emission_reduction_methods/feed_supplements> <http://www.w3.org/2004/02/skos/core#prefLabel> "Feed supplements (FS)"@en .
+<https://www.ktbl.de/emission_reduction_methods/feed_supplements> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nahrungsergänzung"@de .
+<https://www.ktbl.de/emission_reduction_methods/feed_supplements> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/emission_reduction_methods> .
+<https://www.ktbl.de/emission_reduction_methods/feed_supplements> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/emission_reduction_methods/manure_belt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/emission_reduction_methods/manure_belt> <http://www.w3.org/2004/02/skos/core#prefLabel> "Manure belt (MB)"@en .
+<https://www.ktbl.de/emission_reduction_methods/manure_belt> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kotband"@de .
+<https://www.ktbl.de/emission_reduction_methods/manure_belt> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/emission_reduction_methods> .
+<https://www.ktbl.de/emission_reduction_methods/manure_belt> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/emission_reduction_methods/slurry_cooling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/emission_reduction_methods/slurry_cooling> <http://www.w3.org/2004/02/skos/core#prefLabel> "Slurry cooling (SC)"@en .
+<https://www.ktbl.de/emission_reduction_methods/slurry_cooling> <http://www.w3.org/2004/02/skos/core#prefLabel> "Güllekühlung"@de .
+<https://www.ktbl.de/emission_reduction_methods/slurry_cooling> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/emission_reduction_methods> .
+<https://www.ktbl.de/emission_reduction_methods/slurry_cooling> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/emission_reduction_methods/underfl_scrap_faeces_urine_sep> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/emission_reduction_methods/underfl_scrap_faeces_urine_sep> <http://www.w3.org/2004/02/skos/core#prefLabel> "Underfloor scraper with faeces and urine separation (USFUS)"@en .
+<https://www.ktbl.de/emission_reduction_methods/underfl_scrap_faeces_urine_sep> <http://www.w3.org/2004/02/skos/core#prefLabel> "Unterflurschieber mit Kot-Harn-Trennung"@de .
+<https://www.ktbl.de/emission_reduction_methods/underfl_scrap_faeces_urine_sep> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/emission_reduction_methods> .
+<https://www.ktbl.de/emission_reduction_methods/underfl_scrap_faeces_urine_sep> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/emission_reduction_methods/grooved_finger_floor_scraper> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/emission_reduction_methods/grooved_finger_floor_scraper> <http://www.w3.org/2004/02/skos/core#prefLabel> "Grooved finger floor scraper (GFFS)"@en .
+<https://www.ktbl.de/emission_reduction_methods/grooved_finger_floor_scraper> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rillenboden mit Fingerschieber"@de .
+<https://www.ktbl.de/emission_reduction_methods/grooved_finger_floor_scraper> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/emission_reduction_methods> .
+<https://www.ktbl.de/emission_reduction_methods/grooved_finger_floor_scraper> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/emission_reduction_methods/slurry_channel_reduction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/emission_reduction_methods/slurry_channel_reduction> <http://www.w3.org/2004/02/skos/core#prefLabel> "Slurry channel reduction (SCR)"@en .
+<https://www.ktbl.de/emission_reduction_methods/slurry_channel_reduction> <http://www.w3.org/2004/02/skos/core#prefLabel> "Güllekanalverkleinerung"@de .
+<https://www.ktbl.de/emission_reduction_methods/slurry_channel_reduction> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/emission_reduction_methods> .
+<https://www.ktbl.de/emission_reduction_methods/slurry_channel_reduction> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/emission_reduction_methods/litter_aeration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/emission_reduction_methods/litter_aeration> <http://www.w3.org/2004/02/skos/core#prefLabel> "Litter aeration (LA)"@en .
+<https://www.ktbl.de/emission_reduction_methods/litter_aeration> <http://www.w3.org/2004/02/skos/core#prefLabel> "Einstreubelüftung"@de .
+<https://www.ktbl.de/emission_reduction_methods/litter_aeration> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/emission_reduction_methods> .
+<https://www.ktbl.de/emission_reduction_methods/litter_aeration> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/emission_reduction_methods/slurry_treatment_whey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/emission_reduction_methods/slurry_treatment_whey> <http://www.w3.org/2004/02/skos/core#prefLabel> "Slurry treatment whey (W)"@en .
+<https://www.ktbl.de/emission_reduction_methods/slurry_treatment_whey> <http://www.w3.org/2004/02/skos/core#prefLabel> "Güllebehandlung mit Molke"@de .
+<https://www.ktbl.de/emission_reduction_methods/slurry_treatment_whey> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/emission_reduction_methods> .
+<https://www.ktbl.de/emission_reduction_methods/slurry_treatment_whey> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/emission_reduction_methods/urease_inhibitor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/emission_reduction_methods/urease_inhibitor> <http://www.w3.org/2004/02/skos/core#prefLabel> "Urease inhibitor (UI)"@en .
+<https://www.ktbl.de/emission_reduction_methods/urease_inhibitor> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ureaseinhibitor"@de .
+<https://www.ktbl.de/emission_reduction_methods/urease_inhibitor> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/emission_reduction_methods> .
+<https://www.ktbl.de/emission_reduction_methods/urease_inhibitor> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/emission_reduction_methods/nutrition_reduced_feeding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/emission_reduction_methods/nutrition_reduced_feeding> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nutrition reduced feeding (NRF)"@en .
+<https://www.ktbl.de/emission_reduction_methods/nutrition_reduced_feeding> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nährstoffreduzierte Fütterung"@de .
+<https://www.ktbl.de/emission_reduction_methods/nutrition_reduced_feeding> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/emission_reduction_methods> .
+<https://www.ktbl.de/emission_reduction_methods/nutrition_reduced_feeding> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/emission_reduction_methods/reduced_slat_ratio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/emission_reduction_methods/reduced_slat_ratio> <http://www.w3.org/2004/02/skos/core#prefLabel> "(RSR)"@en .
+<https://www.ktbl.de/emission_reduction_methods/reduced_slat_ratio> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reduzierter Schlitzanteil"@de .
+<https://www.ktbl.de/emission_reduction_methods/reduced_slat_ratio> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/emission_reduction_methods> .
+<https://www.ktbl.de/emission_reduction_methods/reduced_slat_ratio> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/emission_reduction_methods/faeces_urine_separation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/emission_reduction_methods/faeces_urine_separation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Faeces urine separation (FUS)"@en .
+<https://www.ktbl.de/emission_reduction_methods/faeces_urine_separation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kot-Harn-Trennung"@de .
+<https://www.ktbl.de/emission_reduction_methods/faeces_urine_separation> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/emission_reduction_methods> .
+<https://www.ktbl.de/emission_reduction_methods/faeces_urine_separation> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/emission_reduction_methods/underfloor_scraper> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/emission_reduction_methods/underfloor_scraper> <http://www.w3.org/2004/02/skos/core#prefLabel> "Underfloor Scraper (US)"@en .
+<https://www.ktbl.de/emission_reduction_methods/underfloor_scraper> <http://www.w3.org/2004/02/skos/core#prefLabel> "Unterflurschieber"@de .
+<https://www.ktbl.de/emission_reduction_methods/underfloor_scraper> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/emission_reduction_methods> .
+<https://www.ktbl.de/emission_reduction_methods/underfloor_scraper> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/emission_reduction_methods/above_floor_scraper> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/emission_reduction_methods/above_floor_scraper> <http://www.w3.org/2004/02/skos/core#prefLabel> "Above floor Scraper (AFS)"@en .
+<https://www.ktbl.de/emission_reduction_methods/above_floor_scraper> <http://www.w3.org/2004/02/skos/core#prefLabel> "Überflurschieber"@de .
+<https://www.ktbl.de/emission_reduction_methods/above_floor_scraper> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/emission_reduction_methods> .
+<https://www.ktbl.de/emission_reduction_methods/above_floor_scraper> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/emission_reduction_methods/incr_manure_removal_interval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/emission_reduction_methods/incr_manure_removal_interval> <http://www.w3.org/2004/02/skos/core#prefLabel> "Increased manure removal intervall (IMRI)"@en .
+<https://www.ktbl.de/emission_reduction_methods/incr_manure_removal_interval> <http://www.w3.org/2004/02/skos/core#prefLabel> "Erhöhtes Entmistungsintervall"@de .
+<https://www.ktbl.de/emission_reduction_methods/incr_manure_removal_interval> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/emission_reduction_methods> .
+<https://www.ktbl.de/emission_reduction_methods/incr_manure_removal_interval> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/emission_reduction_methods/slurry_channel_flushing_system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/emission_reduction_methods/slurry_channel_flushing_system> <http://www.w3.org/2004/02/skos/core#prefLabel> "Slurry channel flushing system (SCFS)"@en .
+<https://www.ktbl.de/emission_reduction_methods/slurry_channel_flushing_system> <http://www.w3.org/2004/02/skos/core#prefLabel> "Güllekanalspülsystem"@de .
+<https://www.ktbl.de/emission_reduction_methods/slurry_channel_flushing_system> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/emission_reduction_methods> .
+<https://www.ktbl.de/emission_reduction_methods/slurry_channel_flushing_system> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/emission_reduction_methods/slurry_acidification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/emission_reduction_methods/slurry_acidification> <http://www.w3.org/2004/02/skos/core#prefLabel> "Slurry acidification (SA)"@en .
+<https://www.ktbl.de/emission_reduction_methods/slurry_acidification> <http://www.w3.org/2004/02/skos/core#prefLabel> "Güllesäuerung"@de .
+<https://www.ktbl.de/emission_reduction_methods/slurry_acidification> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/emission_reduction_methods> .
+<https://www.ktbl.de/emission_reduction_methods/slurry_acidification> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/emission_reduction_methods/air_cleaning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/emission_reduction_methods/air_cleaning> <http://www.w3.org/2004/02/skos/core#prefLabel> "Air cleaning (AC)"@en .
+<https://www.ktbl.de/emission_reduction_methods/air_cleaning> <http://www.w3.org/2004/02/skos/core#prefLabel> "Abluftreinigung"@de .
+<https://www.ktbl.de/emission_reduction_methods/air_cleaning> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/emission_reduction_methods> .
+<https://www.ktbl.de/emission_reduction_methods/air_cleaning> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/emission_reduction_methods/incoming_air_cooling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/emission_reduction_methods/incoming_air_cooling> <http://www.w3.org/2004/02/skos/core#prefLabel> "Incoming air cooling (IAC)"@en .
+<https://www.ktbl.de/emission_reduction_methods/incoming_air_cooling> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zuluftkühlung"@de .
+<https://www.ktbl.de/emission_reduction_methods/incoming_air_cooling> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/emission_reduction_methods> .
+<https://www.ktbl.de/emission_reduction_methods/incoming_air_cooling> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/emission_reduction_methods/manure_drying> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/emission_reduction_methods/manure_drying> <http://www.w3.org/2004/02/skos/core#prefLabel> "Manure drying (MD)"@en .
+<https://www.ktbl.de/emission_reduction_methods/manure_drying> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kottrocknung"@de .
+<https://www.ktbl.de/emission_reduction_methods/manure_drying> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/emission_reduction_methods> .
+<https://www.ktbl.de/emission_reduction_methods/manure_drying> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/emission_reduction_methods/manure_supplements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/emission_reduction_methods/manure_supplements> <http://www.w3.org/2004/02/skos/core#prefLabel> "Manure supplements (MS)"@en .
+<https://www.ktbl.de/emission_reduction_methods/manure_supplements> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gülle- / Mistzusatzstoffe"@de .
+<https://www.ktbl.de/emission_reduction_methods/manure_supplements> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/emission_reduction_methods> .
+<https://www.ktbl.de/emission_reduction_methods/manure_supplements> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/emission_reduction_methods/slit_sealing_flaps> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/emission_reduction_methods/slit_sealing_flaps> <http://www.w3.org/2004/02/skos/core#prefLabel> "Slit sealing flaps (SSF)"@en .
+<https://www.ktbl.de/emission_reduction_methods/slit_sealing_flaps> <http://www.w3.org/2004/02/skos/core#prefLabel> "Spaltendichtungsklappen"@de .
+<https://www.ktbl.de/emission_reduction_methods/slit_sealing_flaps> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/emission_reduction_methods> .
+<https://www.ktbl.de/emission_reduction_methods/slit_sealing_flaps> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/project_title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/project_title> <http://www.w3.org/2004/02/skos/core#prefLabel> "Project title"@en .
+<https://www.ktbl.de/project_title> <http://www.w3.org/2004/02/skos/core#prefLabel> "Projektbezeichnung"@de .
+<https://www.ktbl.de/project_title> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/project_title/emimin> .
+<https://www.ktbl.de/project_title> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/project_title/emidat> .
+<https://www.ktbl.de/project_title> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/project_title/emimin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/project_title/emimin> <http://www.w3.org/2004/02/skos/core#prefLabel> "EmiMin"@en .
+<https://www.ktbl.de/project_title/emimin> <http://www.w3.org/2004/02/skos/core#prefLabel> "EmiMin"@de .
+<https://www.ktbl.de/project_title/emimin> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/project_title> .
+<https://www.ktbl.de/project_title/emimin> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/project_title/emidat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/project_title/emidat> <http://www.w3.org/2004/02/skos/core#prefLabel> "EmiDat"@en .
+<https://www.ktbl.de/project_title/emidat> <http://www.w3.org/2004/02/skos/core#prefLabel> "EmiDat"@de .
+<https://www.ktbl.de/project_title/emidat> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/project_title> .
+<https://www.ktbl.de/project_title/emidat> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/test_design> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/test_design> <http://www.w3.org/2004/02/skos/core#prefLabel> "Test design"@en .
+<https://www.ktbl.de/test_design> <http://www.w3.org/2004/02/skos/core#prefLabel> "Durchführungsart"@de .
+<https://www.ktbl.de/test_design> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/test_design/case_control> .
+<https://www.ktbl.de/test_design> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/test_design/multi_site> .
+<https://www.ktbl.de/test_design> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/test_design/case_control> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/test_design/case_control> <http://www.w3.org/2004/02/skos/core#prefLabel> "Case control"@en .
+<https://www.ktbl.de/test_design/case_control> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fallkontrolle"@de .
+<https://www.ktbl.de/test_design/case_control> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/test_design> .
+<https://www.ktbl.de/test_design/case_control> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/test_design/multi_site> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/test_design/multi_site> <http://www.w3.org/2004/02/skos/core#prefLabel> "Multi site"@en .
+<https://www.ktbl.de/test_design/multi_site> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mehrere Betriebsstandorte"@de .
+<https://www.ktbl.de/test_design/multi_site> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/test_design> .
+<https://www.ktbl.de/test_design/multi_site> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
+<https://www.ktbl.de/others> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.ktbl.de/others> <http://www.w3.org/2004/02/skos/core#prefLabel> "Other"@en .
+<https://www.ktbl.de/others> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sonstiges"@de .
+<https://www.ktbl.de/others> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/diary_cattle_farming> .
+<https://www.ktbl.de/others> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/young_cattle_farming> .
+<https://www.ktbl.de/others> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/suckler_cow_farming> .
+<https://www.ktbl.de/others> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/cattle_fattening> .
+<https://www.ktbl.de/others> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/calf_raising> .
+<https://www.ktbl.de/others> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/calf_fattening> .
+<https://www.ktbl.de/others> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/piglet_procuction> .
+<https://www.ktbl.de/others> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/piglet_raising> .
+<https://www.ktbl.de/others> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/pig_fattening> .
+<https://www.ktbl.de/others> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/duck_fattening> .
+<https://www.ktbl.de/others> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/laying_hen_farming> .
+<https://www.ktbl.de/others> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/young_hen_farming> .
+<https://www.ktbl.de/others> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/broiler_fattening> .
+<https://www.ktbl.de/others> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/turkey_fattening> .
+<https://www.ktbl.de/others> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_production/turkey_raising> .
+<https://www.ktbl.de/others> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/ventilation_system> .
+<https://www.ktbl.de/others> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/emissions> .
+<https://www.ktbl.de/others> <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.ktbl.de/emimin#> .
