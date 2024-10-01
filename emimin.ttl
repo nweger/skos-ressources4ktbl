@@ -19,7 +19,7 @@ skos:topConceptOf <> .
 <livestock_category/cattle> a skos:Concept ;
 skos:prefLabel "Cattle"@en, "Rind"@de ;
 skos:broader <livestock_category> ;
-skos:narrower <livestock_production/diary_cattle_farming> ;
+skos:narrower <livestock_production/dairy_cattle_farming> ;
 skos:narrower <livestock_production/young_cattle_farming> ;
 skos:narrower <livestock_production/cattle_fattening> ;
 skos:narrower <livestock_production/calf_raising> ;
@@ -89,7 +89,7 @@ skos:inScheme <> .
 
 <livestock_production> a skos:Concept ;
 skos:prefLabel "Livestock production"@en, "Produktionsart"@de ;
-skos:narrower <livestock_production/diary_cattle_farming> ;
+skos:narrower <livestock_production/dairy_cattle_farming> ;
 skos:narrower <livestock_production/young_cattle_farming> ;
 skos:narrower <livestock_production/cattle_fattening> ;
 skos:narrower <livestock_production/calf_raising> ;
@@ -106,8 +106,8 @@ skos:narrower <livestock_production/turkey_fattening> ;
 skos:narrower <livestock_production/duck_fattening> ;
 skos:topConceptOf <> .
 
-<livestock_production/diary_cattle_farming> a skos:Concept ;
-skos:prefLabel "Diary cattle farming"@en, "Milchkuhhaltung"@de ;
+<livestock_production/dairy_cattle_farming> a skos:Concept ;
+skos:prefLabel "dairy cattle farming"@en, "Milchkuhhaltung"@de ;
 skos:broader <livestock_category/cattle> ;
 skos:narrower <housing_systems/cubicle_h> ;
 skos:narrower <housing_systems/loose_h_1_type_floor> ;
@@ -285,7 +285,7 @@ skos:inScheme <> .
 <housing_systems/cubicle_h> a skos:Concept ;
 skos:prefLabel "Cubicle housing"@en, "Liegeboxenstall"@de ;
 skos:broader <housing_systems> ;
-skos:broader <livestock_production/diary_cattle_farming> ;
+skos:broader <livestock_production/dairy_cattle_farming> ;
 skos:broader <livestock_production/young_cattle_farming> ;
 skos:broader <livestock_production/cattle_fattening> ;
 skos:inScheme <> .
@@ -305,7 +305,7 @@ skos:inScheme <> .
 <housing_systems/loose_h_1_type_floor> a skos:Concept ;
 skos:prefLabel "Loose housing with single type flooring"@en, "Einraumlaufstall"@de ;
 skos:broader <housing_systems> ;
-skos:broader <livestock_production/diary_cattle_farming> ;
+skos:broader <livestock_production/dairy_cattle_farming> ;
 skos:broader <livestock_production/young_cattle_farming> ;
 skos:broader <livestock_production/cattle_fattening> ;
 skos:broader <livestock_production/suckler_cow_farming> ;
@@ -316,7 +316,7 @@ skos:inScheme <> .
 <housing_systems/loose_h_2_type_floor> a skos:Concept ;
 skos:prefLabel "Loose housing with two type flooring"@en, "Zweiraumlaufstall"@de ;
 skos:broader <housing_systems> ;
-skos:broader <livestock_production/diary_cattle_farming> ;
+skos:broader <livestock_production/dairy_cattle_farming> ;
 skos:broader <livestock_production/young_cattle_farming> ;
 skos:broader <livestock_production/cattle_fattening> ;
 skos:broader <livestock_production/suckler_cow_farming> ;
@@ -727,7 +727,7 @@ skos:inScheme <> .
 
 <others> a skos:Concept ;
 skos:prefLabel "Other"@en, "Sonstiges"@de ;
-skos:broader <livestock_production/diary_cattle_farming> ;
+skos:broader <livestock_production/dairy_cattle_farming> ;
 skos:broader <livestock_production/young_cattle_farming> ;
 skos:broader <livestock_production/suckler_cow_farming> ;
 skos:broader <livestock_production/cattle_fattening> ;
