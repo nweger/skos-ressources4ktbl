@@ -102,7 +102,7 @@
 <https://www.ktbl.de/livestock_production> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/livestock_production/duck_fattening> .
 <https://www.ktbl.de/livestock_production> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://www.ktbl.de/emimin#> .
 <https://www.ktbl.de/livestock_production/dairy_cattle_farming> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://www.ktbl.de/livestock_production/dairy_cattle_farming> <http://www.w3.org/2004/02/skos/core#prefLabel> "dairy cattle farming"@en .
+<https://www.ktbl.de/livestock_production/dairy_cattle_farming> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dairy cattle farming"@en .
 <https://www.ktbl.de/livestock_production/dairy_cattle_farming> <http://www.w3.org/2004/02/skos/core#prefLabel> "Milchkuhhaltung"@de .
 <https://www.ktbl.de/livestock_production/dairy_cattle_farming> <http://www.w3.org/2004/02/skos/core#broader> <https://www.ktbl.de/livestock_category/cattle> .
 <https://www.ktbl.de/livestock_production/dairy_cattle_farming> <http://www.w3.org/2004/02/skos/core#narrower> <https://www.ktbl.de/housing_systems/cubicle_h> .
