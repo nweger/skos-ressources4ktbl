@@ -264,7 +264,7 @@ skos:broader <housing_systems> ;
 skos:broader <livestock_production/duck_fattening> ;
 skos:broader <livestock_production/laying_hen_farming> ;
 skos:broader <livestock_production/young_hen_farming> ;
-skos:broader <livestock_production/chicken_fattening> ;
+skos:broader <livestock_production/broiler_fattening> ;
 skos:broader <livestock_production/turkey_fattening> ;
 skos:broader <livestock_production/turkey_raising> ;
 skos:inScheme <> .
@@ -733,7 +733,7 @@ skos:broader <livestock_production/suckler_cow_farming> ;
 skos:broader <livestock_production/cattle_fattening> ;
 skos:broader <livestock_production/calf_raising> ;
 skos:broader <livestock_production/calf_fattening> ;
-skos:broader <livestock_production/piglet_procuction> ;
+skos:broader <livestock_production/piglet_production> ;
 skos:broader <livestock_production/piglet_raising> ;
 skos:broader <livestock_production/pig_fattening> ;
 skos:broader <livestock_production/duck_fattening> ;
