@@ -107,7 +107,7 @@ skos:narrower <livestock_production/duck_fattening> ;
 skos:topConceptOf <> .
 
 <livestock_production/dairy_cattle_farming> a skos:Concept ;
-skos:prefLabel "dairy cattle farming"@en, "Milchkuhhaltung"@de ;
+skos:prefLabel "Dairy cattle farming"@en, "Milchkuhhaltung"@de ;
 skos:broader <livestock_category/cattle> ;
 skos:narrower <housing_systems/cubicle_h> ;
 skos:narrower <housing_systems/loose_h_1_type_floor> ;
